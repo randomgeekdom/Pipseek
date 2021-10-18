@@ -98,9 +98,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/sidebars.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/sidebars.js" ]
           }
         },
         "server": {
