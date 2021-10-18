@@ -1,0 +1,14 @@
+Integrate into api to find list of seeds and plants
+
+Favicon and Logo image
+
+Force login
+
+Left Nav (every page [except login])
+
+Homepage (calendar, rando pic, and useful links)
+
+
+
+MVP
+	Seed catalog and calendar of when to Scarify, Direct Sow, or Stratify.  (see what apis USDA might have)
