@@ -5,6 +5,8 @@ Force login
 
 Homepage (calendar, rando pic, and useful links)
 
+Make sidebar responsive
+
 
 
 HOLD OFF - Integrate into api to find list of seeds and plants
