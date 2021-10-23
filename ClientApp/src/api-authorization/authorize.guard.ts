@@ -20,9 +20,10 @@ export class AuthorizeGuard implements CanActivate {
 
   private handleAuthorization(isAuthenticated: boolean, state: RouterStateSnapshot) {
     if (!isAuthenticated) {
+      debugger;
       this.router.navigate(ApplicationPaths.LoginPathComponents, {
         queryParams: {
-          [QueryParameterNames.ReturnUrl]: state.url
+          [QueryParameterNames.ReturnUrl]: state.url == '/' ? '/home' : state.url
         }
       });
     }
