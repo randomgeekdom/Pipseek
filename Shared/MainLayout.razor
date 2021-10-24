@@ -1,0 +1,41 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager navigationManager
+
+<PageTitle>Pipseek</PageTitle>
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4 auth">
+            <LoginDisplay />
+            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+@code {
+    [CascadingParameter]
+    protected Task<AuthenticationState> AuthStat { get; set; }
+
+    protected async override Task OnInitializedAsync()
+    {
+        base.OnInitialized();
+
+
+            var user = (await AuthStat).User;
+
+            if (!user.Identity.IsAuthenticated)
+            {
+                var localRedirect = "/" + navigationManager.ToBaseRelativePath(navigationManager.Uri);
+                navigationManager.NavigateTo($"/Identity/Account/Login?returnUrl={Uri.EscapeDataString(localRedirect)}");
+            }
+        
+    }
+}
