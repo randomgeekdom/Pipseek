@@ -336,3 +336,8 @@ D:\Repos\Pipseek\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBu
 D:\Repos\Pipseek\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 D:\Repos\Pipseek\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 D:\Repos\Pipseek\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+D:\Repos\Pipseek\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+D:\Repos\Pipseek\bin\Debug\net6.0\Microsoft.Azure.SignalR.Common.dll
+D:\Repos\Pipseek\bin\Debug\net6.0\Microsoft.Azure.SignalR.dll
+D:\Repos\Pipseek\bin\Debug\net6.0\Microsoft.Azure.SignalR.Protocols.dll
+D:\Repos\Pipseek\obj\Debug\net6.0\Pipseek.csproj.CopyComplete
