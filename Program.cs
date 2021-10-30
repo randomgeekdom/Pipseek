@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
 using Pipseek.Areas.Identity;
 using Pipseek.Data;
+using Smart.Blazor;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +23,9 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => {
     options.Password.RequiredLength = 6;
 })
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+
+builder.Services.AddSmart();
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
