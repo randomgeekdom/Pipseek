@@ -3,6 +3,10 @@
     "mssql1": {
       "restored": true,
       "restoreTime": "2021-10-25T02:35:02.5916734Z"
+    },
+    "signalr1": {
+      "restored": true,
+      "restoreTime": "2021-10-30T20:14:52.7384868Z"
     }
   },
   "parameters": {
@@ -11,10 +15,20 @@
       "Type": "subscription",
       "Value": "00440c50-5e65-4ea1-b995-424809a8de7f"
     },
+    "signalr1.resourceGroupName": {
+      "Name": "signalr1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "DefaultResourceGroup-CUS"
+    },
     "mssql1.resourceGroupName": {
       "Name": "mssql1.resourceGroupName",
       "Type": "resourceGroup",
       "Value": "pipseek-resource"
+    },
+    "signalr1.subscriptionId": {
+      "Name": "signalr1.subscriptionId",
+      "Type": "subscription",
+      "Value": "00440c50-5e65-4ea1-b995-424809a8de7f"
     }
   }
 }
