@@ -22,7 +22,7 @@ namespace Pipseek.Services
             var userIdClaim = this.httpContextAccessor.HttpContext.User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier);
             if (userIdClaim == null)
             {
-                throw new InvalidOperationException();
+                return default(Guid);
             }
 
             return Guid.Parse(userIdClaim.Value);
