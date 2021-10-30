@@ -341,3 +341,13 @@ D:\Repos\Pipseek\bin\Debug\net6.0\Microsoft.Azure.SignalR.Common.dll
 D:\Repos\Pipseek\bin\Debug\net6.0\Microsoft.Azure.SignalR.dll
 D:\Repos\Pipseek\bin\Debug\net6.0\Microsoft.Azure.SignalR.Protocols.dll
 D:\Repos\Pipseek\bin\Debug\net6.0\Smart.Blazor.dll
+D:\Repos\Pipseek\bin\Debug\net6.0\Azure.Core.dll
+D:\Repos\Pipseek\bin\Debug\net6.0\Azure.Identity.dll
+D:\Repos\Pipseek\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Repos\Pipseek\bin\Debug\net6.0\Microsoft.Rest.ClientRuntime.dll
+D:\Repos\Pipseek\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Repos\Pipseek\bin\Debug\net6.0\Pipseek.Model.dll
+D:\Repos\Pipseek\bin\Debug\net6.0\Pipseek.Model.pdb
+D:\Repos\Pipseek\bin\Debug\net6.0\Pipseek.Services.dll
+D:\Repos\Pipseek\bin\Debug\net6.0\Pipseek.Services.pdb
+D:\Repos\Pipseek\obj\Debug\net6.0\Pipseek.csproj.CopyComplete

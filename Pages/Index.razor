@@ -1,6 +1,11 @@
 ﻿@page "/"
-@using Pipseek.Models
+@using Pipseek.Models;
+@using Pipseek.Model;
+@using Pipseek.Services;
 @using Smart.Blazor;
+
+@inject IDailyTaskRepository dailyTaskRepository
+@inject IUserService userService
 
 <div class="row">
 	<div class="col-md-6">
@@ -12,6 +17,7 @@
             <div class="card">
               <div class="card-header p-3">
                 <h5 class="mb-0"><i class="fas fa-tasks me-2"></i>Task List</h5>
+                <button @onclick="(async)=>AddTaskAsync()">Add</button>
               </div>
               <div class="card-body" data-mdb-perfect-scrollbar="true" style="position: relative; height: 400px">
 
@@ -93,6 +99,22 @@
                         <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i class="fas fa-trash-alt text-warning"></i></a>
                       </td>
                     </tr>
+
+                    @foreach(var task in this.tasks)
+                                {
+                    <tr class="fw-normal">
+ 
+                      <td class="border-0 align-middle">@task.Note</td>
+                      <td class="border-0 align-middle">
+                        <h6 class="mb-0"><span class="badge bg-warning">@task.Note</span></h6>
+                      </td>
+                      <td class="border-0 align-middle">
+                        <a href="#!" data-mdb-toggle="tooltip" title="Done"><i class="fas fa-check text-success me-3"></i>Done</a>
+                        <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i class="fas fa-trash-alt text-warning"></i>Remove</a>
+                      </td>
+                    </tr>
+                                }
+
                   </tbody>
                 </table>
 
@@ -133,16 +155,40 @@
     string plantImage = "";
     string plantText = "";
 
-    protected override void OnInitialized()
+    IEnumerable<DailyTask> tasks = new List<DailyTask>();
+
+    DateTime date = DateTime.Now.Date;
+
+    Guid userId = default(Guid);
+
+    protected override async Task OnInitializedAsync()
     {
         var plant = Plants.GetRandom();
-        
+
         plantImage = plant.Key;
         plantText = plant.Value;
+
+        this.userId = this.userService.GetUserId();
+
+        await this.GetTasksAsync();
     }
 
     private void OnChange(Event eventObj)
     {
-        
+        CalendarChangeEventDetail eventDetail = eventObj["Detail"];
+        this.date = DateTime.Parse(eventDetail.Value.First()).Date;
+
+        this.GetTasksAsync();
+    }
+
+    public async Task AddTaskAsync()
+    {
+        await this.dailyTaskRepository.CreateTaskAsync(this.userId, this.date.Date, "A TASK THAT TASKS", TimeOfDay.Morning);
+        await this.GetTasksAsync();
+    }
+
+    public async Task GetTasksAsync()
+    {
+        this.tasks = await this.dailyTaskRepository.GetTasksAsync(this.userId, this.date);
     }
 }

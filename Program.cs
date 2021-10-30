@@ -6,13 +6,15 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
 using Pipseek.Areas.Identity;
 using Pipseek.Data;
+using Pipseek.Model;
+using Pipseek.Services;
 using Smart.Blazor;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
+builder.Services.AddDbContext<PipseekContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => { 
@@ -22,7 +24,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => {
     options.Password.RequireUppercase = false;
     options.Password.RequiredLength = 6;
 })
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+    .AddEntityFrameworkStores<PipseekContext>();
 
 
 builder.Services.AddSmart();
@@ -31,8 +33,16 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
 builder.Services.AddSingleton<WeatherForecastService>();
 
+builder.Services.AddHttpContextAccessor();
 
-var context = builder.Services.BuildServiceProvider().GetService<ApplicationDbContext>();
+builder.Services.AddTransient<IDailyTaskRepository, DailyTaskRepository>();
+builder.Services.AddTransient<IUserService, UserService>();
+
+builder.Services.AddDbContextFactory<PipseekContext>(options =>
+    options.UseSqlServer(connectionString),
+    ServiceLifetime.Scoped);
+
+var context = builder.Services.BuildServiceProvider().GetService<PipseekContext>();
 context.Database.Migrate();
 
 

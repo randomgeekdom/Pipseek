@@ -10,10 +10,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Pipseek.Model\**" />
+    <Compile Remove="Pipseek.Services.Test\**" />
+    <Compile Remove="Pipseek.Services\**" />
+    <Content Remove="Pipseek.Model\**" />
+    <Content Remove="Pipseek.Services.Test\**" />
+    <Content Remove="Pipseek.Services\**" />
+    <EmbeddedResource Remove="Pipseek.Model\**" />
+    <EmbeddedResource Remove="Pipseek.Services.Test\**" />
+    <EmbeddedResource Remove="Pipseek.Services\**" />
+    <None Remove="Pipseek.Model\**" />
+    <None Remove="Pipseek.Services.Test\**" />
+    <None Remove="Pipseek.Services\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.0-rc.2.21480.10" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.0-rc.2.21480.10" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.0-rc.2.21480.10" />
-    <PackageReference Include="Microsoft.Azure.SignalR" Version="1.4.0" />
+    <PackageReference Include="Microsoft.Azure.SignalR" Version="1.12.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0-rc.2.21480.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0-rc.2.21480.5" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
@@ -22,7 +37,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Migrations\" />
     <Folder Include="wwwroot\img\plants\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="Pipseek.Model\Pipseek.Model.csproj" />
+    <ProjectReference Include="Pipseek.Services\Pipseek.Services.csproj" />
   </ItemGroup>
 
 </Project>
