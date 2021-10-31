@@ -13,4 +13,3 @@ D:\Repos\Pipseek\Pipseek.Services\obj\Debug\net6.0\Pipseek.Services.csproj.CoreC
 D:\Repos\Pipseek\Pipseek.Services\obj\Debug\net6.0\Pipseek.Services.dll
 D:\Repos\Pipseek\Pipseek.Services\obj\Debug\net6.0\ref\Pipseek.Services.dll
 D:\Repos\Pipseek\Pipseek.Services\obj\Debug\net6.0\Pipseek.Services.pdb
-D:\Repos\Pipseek\Pipseek.Services\obj\Debug\net6.0\Pipseek.Services.csproj.CopyComplete

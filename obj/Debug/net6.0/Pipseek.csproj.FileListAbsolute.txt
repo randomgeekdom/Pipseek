@@ -350,4 +350,3 @@ D:\Repos\Pipseek\bin\Debug\net6.0\Pipseek.Model.dll
 D:\Repos\Pipseek\bin\Debug\net6.0\Pipseek.Model.pdb
 D:\Repos\Pipseek\bin\Debug\net6.0\Pipseek.Services.dll
 D:\Repos\Pipseek\bin\Debug\net6.0\Pipseek.Services.pdb
-D:\Repos\Pipseek\obj\Debug\net6.0\Pipseek.csproj.CopyComplete

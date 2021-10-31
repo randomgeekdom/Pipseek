@@ -9,15 +9,22 @@
 
 <div class="row">
 	<div class="col-md-6">
-
         @*Task List*@
         <div class="row d-flex justify-content-center align-items-center">
           <div class="col-md-12 col-xl-10">
 
-            <div class="card">
+            <div class="card bg-success bg-opacity-25 bg-gradient">
               <div class="card-header p-3">
-                <h5 class="mb-0"><i class="fas fa-tasks me-2"></i>Task List</h5>
-                <button @onclick="(async)=>AddTaskAsync()">Add</button>
+                  <div class="row align-middle">
+                      <div class="col-md-9">
+                <h5 class="mb-0">
+                    <i class="fas fa-tasks me-2"></i>My Tasks
+                </h5>
+                </div>
+                      <div class="col-md-3">
+                    <button class="btn btn-sm btn-outline-success" @onclick="(async)=>AddTaskAsync()"><i class="fas fa-plus text-success me-3"></i>Add Task</button>
+                    </div>
+                  </div>
               </div>
               <div class="card-body" data-mdb-perfect-scrollbar="true" style="position: relative; height: 400px">
 
@@ -26,91 +33,23 @@
                     <tr>
 
                       <th scope="col">Task</th>
-                      <th scope="col">Priority</th>
+                      <th scope="col">Time of Day</th>
                       <th scope="col">Actions</th>
                     </tr>
                   </thead>
                   <tbody>
-                    <tr class="fw-normal">
-
-                      <td class="align-middle">
-                        <span >Call Sam For payments</span >
-                      </td>
-                      <td class="align-middle">
-                        <h6 class="mb-0"><span class="badge bg-danger">High priority</span></h6>
-                      </td>
-                      <td class="align-middle">
-                        <a href="#!" data-mdb-toggle="tooltip" title="Done"><i class="fas fa-check text-success me-3"></i></a>
-                        <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i class="fas fa-trash-alt text-danger"></i></a>
-                      </td>
-                    </tr>
-                    <tr class="fw-normal">
-
-                      <td class="align-middle">Make payment to Bluedart</td>
-                      <td class="align-middle">
-                        <h6 class="mb-0"><span class="badge bg-success">Low priority</span></h6>
-                      </td>
-                      <td class="align-middle">
-                        <a href="#!" data-mdb-toggle="tooltip" title="Done"><i class="fas fa-check text-success me-3"></i></a>
-                        <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i class="fas fa-trash-alt text-danger"></i></a>
-                      </td>
-                    </tr>
-                    <tr class="fw-normal">
-       
-                      <td class="align-middle">Office rent</td>
-                      <td class="align-middle">
-                        <h6 class="mb-0"><span class="badge bg-warning">Middle priority</span></h6>
-                      </td>
-                      <td class="align-middle">
-                        <a href="#!" data-mdb-toggle="tooltip" title="Done"><i class="fas fa-check text-success me-3"></i></a>
-                        <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i class="fas fa-trash-alt text-danger"></i></a>
-                      </td>
-                    </tr>
-                    <tr class="fw-normal">
-   
-                      <td class="align-middle">Office grocery shopping</td>
-                      <td class="align-middle">
-                        <h6 class="mb-0"><span class="badge bg-danger">High priority</span></h6>
-                      </td>
-                      <td class="align-middle">
-                        <a href="#!" data-mdb-toggle="tooltip" title="Done"><i class="fas fa-check text-success me-3"></i></a>
-                        <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i class="fas fa-trash-alt text-danger"></i></a>
-                      </td>
-                    </tr>
-                    <tr class="fw-normal">
-   
-                      <td class="align-middle">Ask for Lunch to Clients</td>
-                      <td class="align-middle">
-                        <h6 class="mb-0"><span class="badge bg-success">Low priority</span></h6>
-                      </td>
-                      <td class="align-middle">
-                        <a href="#!" data-mdb-toggle="tooltip" title="Done"><i class="fas fa-check text-success me-3"></i></a>
-                        <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i class="fas fa-trash-alt text-danger"></i></a>
-                      </td>
-                    </tr>
-                    <tr class="fw-normal">
- 
-                      <td class="border-0 align-middle">Create weekly tasks plan</td>
-                      <td class="border-0 align-middle">
-                        <h6 class="mb-0"><span class="badge bg-warning">Medium priority</span></h6>
-                      </td>
-                      <td class="border-0 align-middle">
-                        <a href="#!" data-mdb-toggle="tooltip" title="Done"><i class="fas fa-check text-success me-3"></i></a>
-                        <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i class="fas fa-trash-alt text-warning"></i></a>
-                      </td>
-                    </tr>
-
-                    @foreach(var task in this.tasks)
+                  
+                    @foreach(var task in this.Tasks)
                                 {
                     <tr class="fw-normal">
  
                       <td class="border-0 align-middle">@task.Note</td>
                       <td class="border-0 align-middle">
-                        <h6 class="mb-0"><span class="badge bg-warning">@task.Note</span></h6>
+                        <h6 class="mb-0"><button class="badge @this.GetBadgeColor(task.TimeOfDay)" @onclick="(async)=>CycleTimeOfDayAsync(task)">@task.TimeOfDay</button></h6>
                       </td>
                       <td class="border-0 align-middle">
-                        <a href="#!" data-mdb-toggle="tooltip" title="Done"><i class="fas fa-check text-success me-3"></i>Done</a>
-                        <a href="#!" data-mdb-toggle="tooltip" title="Remove"><i class="fas fa-trash-alt text-warning"></i>Remove</a>
+                        <a href="#!" data-mdb-toggle="tooltip" title="Done"><i class="fas fa-check text-success me-3"></i></a>
+                        <a href="#!" data-mdb-toggle="tooltip" title="Remove" @onclick="(async)=>DeleteTaskAsync(task)"><i class="fas fa-trash-alt text-warning"></i></a>
                       </td>
                     </tr>
                                 }
@@ -121,17 +60,15 @@
               </div>
 
             </div>
-
-
     </div>
-  </div>
+</div>
 	</div>
 	<div class="col-md-6">
         @*Calendar*@
 		<div class="row">
          <Calendar id="calendar" OnChange=@OnChange></Calendar>
          <div class="options">
-	    <div class="caption">Events</div>
+
 	    <div class="option" id="log">
 	</div>
         </div>
@@ -156,6 +93,15 @@
     string plantText = "";
 
     IEnumerable<DailyTask> tasks = new List<DailyTask>();
+    IEnumerable<DailyTask> Tasks 
+    {
+        get => this.tasks;
+        set
+        {
+            this.tasks = value;
+            StateHasChanged();
+        }
+    }
 
     DateTime date = DateTime.Now.Date;
 
@@ -173,6 +119,13 @@
         await this.GetTasksAsync();
     }
 
+    public async Task CycleTimeOfDayAsync(DailyTask task)
+    {
+        await this.dailyTaskRepository.CycleTimeOfDayAsync(this.userId, task.Id);
+
+        await this.GetTasksAsync();
+    }
+
     private void OnChange(Event eventObj)
     {
         CalendarChangeEventDetail eventDetail = eventObj["Detail"];
@@ -183,12 +136,36 @@
 
     public async Task AddTaskAsync()
     {
-        await this.dailyTaskRepository.CreateTaskAsync(this.userId, this.date.Date, "A TASK THAT TASKS", TimeOfDay.Morning);
+        await this.dailyTaskRepository.CreateTaskAsync(this.userId, this.date.Date, TimeOfDay.Morning);
         await this.GetTasksAsync();
+    }
+
+    public string GetBadgeColor(TimeOfDay timeOfDay)
+    {
+        switch (timeOfDay)
+        {
+            case TimeOfDay.Morning:
+                return "btn-primary";
+            case TimeOfDay.Midday:
+                return "btn-danger";
+            case TimeOfDay.Afternoon:
+                return "btn-success";
+            case TimeOfDay.Evening:
+                return "btn-secondary";
+            case TimeOfDay.Night:
+                return "btn-dark";
+        }
+        return "btn-light";
     }
 
     public async Task GetTasksAsync()
     {
-        this.tasks = await this.dailyTaskRepository.GetTasksAsync(this.userId, this.date);
+        this.Tasks = (await this.dailyTaskRepository.GetTasksAsync(this.userId, this.date)).OrderBy(x=>x.TimeOfDay);
+    }
+
+    public async Task DeleteTaskAsync(DailyTask task)
+    {
+        await this.dailyTaskRepository.DeleteTaskAsync(this.userId, task.Id);
+        await this.GetTasksAsync();
     }
 }

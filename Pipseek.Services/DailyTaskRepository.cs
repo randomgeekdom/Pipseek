@@ -17,14 +17,14 @@ namespace Pipseek.Services
             this.contextFactory = contextFactory;
         }
 
-        public async Task CreateTaskAsync(Guid userId, DateTime date, string note, TimeOfDay timeOfDay)
+        public async Task CreateTaskAsync(Guid userId, DateTime date, TimeOfDay timeOfDay)
         {
             using (var context = await this.contextFactory.CreateDbContextAsync())
             {
                 var task = new DailyTask
                 {
                     Date = date.Date,
-                    Note = note,
+                    Note = "New Task",
                     TimeOfDay = timeOfDay,
                     UserId = userId
                 };
@@ -42,7 +42,7 @@ namespace Pipseek.Services
             }
         }
 
-        public async Task DeleteTask(Guid userId, int taskId)
+        public async Task DeleteTaskAsync(Guid userId, int taskId)
         {
             using (var context = await this.contextFactory.CreateDbContextAsync())
             {
@@ -51,6 +51,27 @@ namespace Pipseek.Services
                 if (task != null)
                 {
                     _ = context.DailyTasks.Remove(task);
+                    await context.SaveChangesAsync();
+                }
+            }
+        }
+
+        public async Task CycleTimeOfDayAsync(Guid userId, int taskId)
+        {
+            using (var context = await this.contextFactory.CreateDbContextAsync())
+            {
+                var task = await context.DailyTasks.FirstOrDefaultAsync(x => x.UserId == userId && x.Id == taskId);
+
+                if (task != null)
+                {
+                    if(task.TimeOfDay == TimeOfDay.Night)
+                    {
+                        task.TimeOfDay = TimeOfDay.Morning;
+                    }
+                    else
+                    {
+                        task.TimeOfDay = (TimeOfDay)((int)task.TimeOfDay + 1);
+                    }
                     await context.SaveChangesAsync();
                 }
             }

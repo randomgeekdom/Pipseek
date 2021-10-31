@@ -4,8 +4,10 @@ namespace Pipseek.Services
 {
     public interface IDailyTaskRepository
     {
-        Task CreateTaskAsync(Guid userId, DateTime date, string note, TimeOfDay timeOfDay);
-        Task DeleteTask(Guid userId, int taskId);
+        Task CreateTaskAsync(Guid userId, DateTime date, TimeOfDay timeOfDay);
+        Task DeleteTaskAsync(Guid userId, int taskId);
         Task<IEnumerable<DailyTask>> GetTasksAsync(Guid userId, DateTime date);
+
+        Task CycleTimeOfDayAsync(Guid userId, int taskId);
     }
 }
