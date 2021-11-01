@@ -64,7 +64,7 @@ namespace Pipseek.Services
 
                 if (task != null)
                 {
-                    if(task.TimeOfDay == TimeOfDay.Night)
+                    if (task.TimeOfDay == TimeOfDay.Night)
                     {
                         task.TimeOfDay = TimeOfDay.Morning;
                     }
@@ -76,5 +76,21 @@ namespace Pipseek.Services
                 }
             }
         }
+
+        public async Task UpdateTaskNoteAsync(Guid userId, int taskId, string? note)
+        {
+            using (var context = await this.contextFactory.CreateDbContextAsync())
+            {
+                var task = await context.DailyTasks.FirstOrDefaultAsync(x => x.UserId == userId && x.Id == taskId);
+
+                if (task != null)
+                {
+                    task.Note = note;
+                    await context.SaveChangesAsync();
+                }
+            }
+
+        }
     }
+
 }

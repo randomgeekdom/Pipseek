@@ -8,6 +8,7 @@ using Pipseek.Areas.Identity;
 using Pipseek.Data;
 using Pipseek.Model;
 using Pipseek.Services;
+using Radzen;
 using Smart.Blazor;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -41,6 +42,12 @@ builder.Services.AddTransient<IUserService, UserService>();
 builder.Services.AddDbContextFactory<PipseekContext>(options =>
     options.UseSqlServer(connectionString),
     ServiceLifetime.Scoped);
+
+
+builder.Services.AddScoped<DialogService>();
+builder.Services.AddScoped<NotificationService>();
+builder.Services.AddScoped<TooltipService>();
+builder.Services.AddScoped<ContextMenuService>();
 
 var context = builder.Services.BuildServiceProvider().GetService<PipseekContext>();
 context.Database.Migrate();

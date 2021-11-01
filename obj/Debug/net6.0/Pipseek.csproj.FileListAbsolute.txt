@@ -350,3 +350,5 @@ D:\Repos\Pipseek\bin\Debug\net6.0\Pipseek.Model.dll
 D:\Repos\Pipseek\bin\Debug\net6.0\Pipseek.Model.pdb
 D:\Repos\Pipseek\bin\Debug\net6.0\Pipseek.Services.dll
 D:\Repos\Pipseek\bin\Debug\net6.0\Pipseek.Services.pdb
+D:\Repos\Pipseek\bin\Debug\net6.0\Radzen.Blazor.dll
+D:\Repos\Pipseek\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll

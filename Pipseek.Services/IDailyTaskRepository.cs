@@ -9,5 +9,7 @@ namespace Pipseek.Services
         Task<IEnumerable<DailyTask>> GetTasksAsync(Guid userId, DateTime date);
 
         Task CycleTimeOfDayAsync(Guid userId, int taskId);
+
+        Task UpdateTaskNoteAsync(Guid userId, int taskId, string? note);
     }
 }

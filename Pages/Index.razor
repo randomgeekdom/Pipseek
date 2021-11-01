@@ -2,10 +2,12 @@
 @using Pipseek.Models;
 @using Pipseek.Model;
 @using Pipseek.Services;
+@using Radzen;
 @using Smart.Blazor;
 
 @inject IDailyTaskRepository dailyTaskRepository
 @inject IUserService userService
+@inject DialogService DialogService
 
 <div class="row">
 	<div class="col-md-6">
@@ -13,7 +15,7 @@
         <div class="row d-flex justify-content-center align-items-center">
           <div class="col-md-12 col-xl-10">
 
-            <div class="card bg-success bg-opacity-25 bg-gradient">
+            <div class="card bg-light bg-opacity-25 bg-gradient">
               <div class="card-header p-3">
                   <div class="row align-middle">
                       <div class="col-md-9">
@@ -43,7 +45,7 @@
                                 {
                     <tr class="fw-normal">
  
-                      <td class="border-0 align-middle">@task.Note</td>
+                      <td class="border-0 align-middle"><button class="btn" @onclick="(async)=>ShowInlineDialog(task)">@task.Note</button></td>
                       <td class="border-0 align-middle">
                         <h6 class="mb-0"><button class="badge @this.GetBadgeColor(task.TimeOfDay)" @onclick="(async)=>CycleTimeOfDayAsync(task)">@task.TimeOfDay</button></h6>
                       </td>
@@ -92,8 +94,8 @@
     string plantImage = "";
     string plantText = "";
 
-    IEnumerable<DailyTask> tasks = new List<DailyTask>();
-    IEnumerable<DailyTask> Tasks 
+    List<DailyTask> tasks = new List<DailyTask>();
+    List<DailyTask> Tasks 
     {
         get => this.tasks;
         set
@@ -160,12 +162,35 @@
 
     public async Task GetTasksAsync()
     {
-        this.Tasks = (await this.dailyTaskRepository.GetTasksAsync(this.userId, this.date)).OrderBy(x=>x.TimeOfDay);
+        this.Tasks = (await this.dailyTaskRepository.GetTasksAsync(this.userId, this.date)).OrderBy(x=>x.TimeOfDay).ThenBy(x=>x.Id).ToList();
     }
 
     public async Task DeleteTaskAsync(DailyTask task)
     {
         await this.dailyTaskRepository.DeleteTaskAsync(this.userId, task.Id);
-        await this.GetTasksAsync();
+        this.Tasks.Remove(task);
+    }
+
+    string? updatedNote = "";
+
+    async Task ShowInlineDialog(DailyTask task)
+    {
+        var result = await DialogService.OpenAsync("Edit Task", ds =>
+        @<div>
+            <RadzenTextBox @bind-Value=@task.Note></RadzenTextBox>
+            <div class="row">
+                <div class="col-md-12">
+                    <RadzenButton Text="Ok" Click="() => this.UpdateTaskNoteAsync(task.Id, task.Note, ds)" Style="margin-bottom: 10px; width: 150px" />
+                    <RadzenButton Text="Cancel" Click="() => ds.Close(false)" ButtonStyle="ButtonStyle.Secondary"  Style="margin-bottom: 10px; width: 150px"/>
+                </div>
+            </div>
+    </div>
+    );
+    }
+
+    public async Task UpdateTaskNoteAsync(int taskId, string? note, DialogService ds)
+    {
+        await this.dailyTaskRepository.UpdateTaskNoteAsync(this.userId, taskId, note);
+        ds.Close(true);
     }
 }
