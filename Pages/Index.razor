@@ -178,14 +178,16 @@
         this.updatedNote = task.Note;
         var result = await DialogService.OpenAsync("Edit Task", ds =>
         @<div>
+         <RadzenTemplateForm Data="@task" Submit="@(async (DailyTask args) => { await this.UpdateTaskNoteAsync(task.Id, this.updatedNote, ds); })">
             <RadzenTextBox @bind-Value=@this.updatedNote ></RadzenTextBox>
             <div class="row">
                 <div class="col-md-12">
-                    <RadzenButton Text="Ok" Click="() => this.UpdateTaskNoteAsync(task.Id, this.updatedNote, ds)" Style="margin-bottom: 10px; width: 150px" />
+                    <RadzenButton Text="Ok" ButtonType="ButtonType.Submit" Style="margin-bottom: 10px; width: 150px" />
                     <RadzenButton Text="Cancel" Click="() => ds.Close(false)" ButtonStyle="ButtonStyle.Secondary"  Style="margin-bottom: 10px; width: 150px"/>
                 </div>
             </div>
-    </div>
+            </RadzenTemplateForm>
+        </div>
     );
     }
      
