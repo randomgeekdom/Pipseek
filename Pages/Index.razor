@@ -175,22 +175,24 @@
 
     async Task ShowInlineDialog(DailyTask task)
     {
+        this.updatedNote = task.Note;
         var result = await DialogService.OpenAsync("Edit Task", ds =>
         @<div>
-            <RadzenTextBox @bind-Value=@task.Note></RadzenTextBox>
+            <RadzenTextBox @bind-Value=@this.updatedNote ></RadzenTextBox>
             <div class="row">
                 <div class="col-md-12">
-                    <RadzenButton Text="Ok" Click="() => this.UpdateTaskNoteAsync(task.Id, task.Note, ds)" Style="margin-bottom: 10px; width: 150px" />
+                    <RadzenButton Text="Ok" Click="() => this.UpdateTaskNoteAsync(task.Id, this.updatedNote, ds)" Style="margin-bottom: 10px; width: 150px" />
                     <RadzenButton Text="Cancel" Click="() => ds.Close(false)" ButtonStyle="ButtonStyle.Secondary"  Style="margin-bottom: 10px; width: 150px"/>
                 </div>
             </div>
     </div>
     );
     }
-
+     
     public async Task UpdateTaskNoteAsync(int taskId, string? note, DialogService ds)
     {
         await this.dailyTaskRepository.UpdateTaskNoteAsync(this.userId, taskId, note);
         ds.Close(true);
+        await this.GetTasksAsync();
     }
 }
