@@ -7,28 +7,22 @@ i:{3e70a1f2-6a6b-4ed6-8fb3-05a48c4c9496}:D:\Repos\Pipseek\.editorconfig
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\.editorconfig
 ++Pipseek.Services
 i:{00000000-0000-0000-0000-000000000000}:Pipseek.Services
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\bin\debug\net6.0\pipseek.services.dll
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\pipseek.services.csproj
 ++Dependencies
-i:{ee2d4f15-02cd-4cf8-af5b-473da1ed7e8a}:>163
-i:{c337f1a1-63fa-4ebb-b01b-39be013d4799}:>162
-i:{39e7a05c-6ee0-432e-b56a-b499f0ae2910}:>1523
-i:{f085266c-6b95-472d-8527-661185974952}:>5050
+i:{ee2d4f15-02cd-4cf8-af5b-473da1ed7e8a}:>1725
+i:{c337f1a1-63fa-4ebb-b01b-39be013d4799}:>1724
+i:{39e7a05c-6ee0-432e-b56a-b499f0ae2910}:>2056
+i:{f085266c-6b95-472d-8527-661185974952}:>5461
 ++DailyTaskRepository.cs
 i:{ee2d4f15-02cd-4cf8-af5b-473da1ed7e8a}:d:\repos\pipseek\pipseek.services\dailytaskrepository.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\dailytaskrepository.cs
 ++GlobalSuppressions.cs
 i:{ee2d4f15-02cd-4cf8-af5b-473da1ed7e8a}:d:\repos\pipseek\pipseek.services\globalsuppressions.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\globalsuppressions.cs
 ++IDailyTaskRepository.cs
 i:{ee2d4f15-02cd-4cf8-af5b-473da1ed7e8a}:d:\repos\pipseek\pipseek.services\idailytaskrepository.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\idailytaskrepository.cs
 ++IUserService.cs
 i:{ee2d4f15-02cd-4cf8-af5b-473da1ed7e8a}:d:\repos\pipseek\pipseek.services\iuserservice.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\iuserservice.cs
 ++UserService.cs
 i:{ee2d4f15-02cd-4cf8-af5b-473da1ed7e8a}:d:\repos\pipseek\pipseek.services\userservice.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\userservice.cs
 ++Analyzers
 i:{ee2d4f15-02cd-4cf8-af5b-473da1ed7e8a}:analyzers
 i:{c337f1a1-63fa-4ebb-b01b-39be013d4799}:analyzers
@@ -76,64 +70,51 @@ i:{c337f1a1-63fa-4ebb-b01b-39be013d4799}:d:\repos\pipseek\pipseek.model\microsof
 i:{39e7a05c-6ee0-432e-b56a-b499f0ae2910}:d:\repos\pipseek\pipseek.services.test\microsoft.netcore.app
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\microsoft.netcore.app
 ++Microsoft.AspNetCore.Http.Abstractions (2.2.0)
-i:{ee2d4f15-02cd-4cf8-af5b-473da1ed7e8a}:>5081
+i:{ee2d4f15-02cd-4cf8-af5b-473da1ed7e8a}:>5489
 ++Microsoft.EntityFrameworkCore.SqlServer (6.0.0-rc.2.21480.5)
-i:{ee2d4f15-02cd-4cf8-af5b-473da1ed7e8a}:>5079
-i:{c337f1a1-63fa-4ebb-b01b-39be013d4799}:>5059
-i:{f085266c-6b95-472d-8527-661185974952}:>5105
+i:{ee2d4f15-02cd-4cf8-af5b-473da1ed7e8a}:>5488
+i:{c337f1a1-63fa-4ebb-b01b-39be013d4799}:>5470
+i:{f085266c-6b95-472d-8527-661185974952}:>5502
 ++Pipseek.Model
-i:{ee2d4f15-02cd-4cf8-af5b-473da1ed7e8a}:d:\repos\pipseek\pipseek.model\bin\debug\net6.0\pipseek.model.dll
+i:{ee2d4f15-02cd-4cf8-af5b-473da1ed7e8a}:d:\repos\pipseek\pipseek.model\pipseek.model.csproj
 i:{00000000-0000-0000-0000-000000000000}:Pipseek.Model
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\bin\debug\net6.0\pipseek.model.dll
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\pipseek.model.csproj
 ++Migrations
 i:{c337f1a1-63fa-4ebb-b01b-39be013d4799}:d:\repos\pipseek\pipseek.model\migrations\
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\migrations\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\migrations\
 ++DailyTask.cs
 i:{c337f1a1-63fa-4ebb-b01b-39be013d4799}:d:\repos\pipseek\pipseek.model\dailytask.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\dailytask.cs
 ++Entity.cs
 i:{c337f1a1-63fa-4ebb-b01b-39be013d4799}:d:\repos\pipseek\pipseek.model\entity.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\entity.cs
 ++PipseekContext.cs
 i:{c337f1a1-63fa-4ebb-b01b-39be013d4799}:d:\repos\pipseek\pipseek.model\pipseekcontext.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\pipseekcontext.cs
 ++TimeOfDay.cs
 i:{c337f1a1-63fa-4ebb-b01b-39be013d4799}:d:\repos\pipseek\pipseek.model\timeofday.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\timeofday.cs
 ++20211030193816_Start.cs
 i:{c337f1a1-63fa-4ebb-b01b-39be013d4799}:d:\repos\pipseek\pipseek.model\migrations\20211030193816_start.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\migrations\20211030193816_start.cs
 ++PipseekContextModelSnapshot.cs
 i:{c337f1a1-63fa-4ebb-b01b-39be013d4799}:d:\repos\pipseek\pipseek.model\migrations\pipseekcontextmodelsnapshot.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\migrations\pipseekcontextmodelsnapshot.cs
 ++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.0-rc.2.21480.10)
-i:{c337f1a1-63fa-4ebb-b01b-39be013d4799}:>5060
-i:{f085266c-6b95-472d-8527-661185974952}:>5107
+i:{c337f1a1-63fa-4ebb-b01b-39be013d4799}:>5471
+i:{f085266c-6b95-472d-8527-661185974952}:>5504
 ++20211030193816_Start.Designer.cs
 i:{c337f1a1-63fa-4ebb-b01b-39be013d4799}:d:\repos\pipseek\pipseek.model\migrations\20211030193816_start.designer.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\migrations\20211030193816_start.designer.cs
 ++Pipseek.Services.Test
 i:{00000000-0000-0000-0000-000000000000}:Pipseek.Services.Test
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\
 ++UnitTest1.cs
 i:{39e7a05c-6ee0-432e-b56a-b499f0ae2910}:d:\repos\pipseek\pipseek.services.test\unittest1.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\unittest1.cs
 ++coverlet.collector (3.1.0)
-i:{39e7a05c-6ee0-432e-b56a-b499f0ae2910}:>5082
+i:{39e7a05c-6ee0-432e-b56a-b499f0ae2910}:>5482
 ++Microsoft.NET.Test.Sdk (16.11.0)
-i:{39e7a05c-6ee0-432e-b56a-b499f0ae2910}:>5075
+i:{39e7a05c-6ee0-432e-b56a-b499f0ae2910}:>5479
 ++NUnit (3.13.2)
-i:{39e7a05c-6ee0-432e-b56a-b499f0ae2910}:>5078
+i:{39e7a05c-6ee0-432e-b56a-b499f0ae2910}:>5480
 ++NUnit3TestAdapter (4.0.0)
-i:{39e7a05c-6ee0-432e-b56a-b499f0ae2910}:>5080
+i:{39e7a05c-6ee0-432e-b56a-b499f0ae2910}:>5481
 ++Pipseek
 i:{00000000-0000-0000-0000-000000000000}:Pipseek
 ++Connected Services 
-i:{f085266c-6b95-472d-8527-661185974952}:>5051
-++Imports
-i:{f085266c-6b95-472d-8527-661185974952}:>5125
+i:{f085266c-6b95-472d-8527-661185974952}:>5462
 ++Properties
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\properties\
 ++wwwroot
@@ -143,73 +124,197 @@ i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\font\css\
 ++bootstrap
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\bootstrap\
-++bootstrap.min.css
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\bootstrap\bootstrap.min.css
 ++open-iconic
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\
 ++site.css
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\site.css
 ++img
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\img\
+++plants
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\img\plants\
+++logo.png
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\img\logo.png
 ++favicon.ico
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\favicon.ico
-++.github
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\.github\
 ++Areas
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\
+++Data
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\data\
+++Models
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\models\
+++Pages
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\
+++Shared
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\shared\
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\shared\
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\shared\
+++_Host.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\_host.cshtml
+++_Layout.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\_layout.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\shared\_layout.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\_layout.cshtml
+++_ViewImports.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\_viewimports.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\_viewimports.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\_viewimports.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\_viewstart.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\_viewstart.cshtml
+++Counter.razor
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\counter.razor
+++Error.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\error.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\error.cshtml
+++FetchData.razor
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\fetchdata.razor
+++Index.razor
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\index.razor
+++LoginDisplay.razor
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\shared\logindisplay.razor
+++MainLayout.razor
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\shared\mainlayout.razor
+++NavMenu.razor
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\shared\navmenu.razor
+++SurveyPrompt.razor
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\shared\surveyprompt.razor
+++.gitignore
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\.gitignore
+++_Imports.razor
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\_imports.razor
+++App.razor
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\app.razor
+++appsettings.json
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\appsettings.json
+++Program.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\program.cs
+++ScaffoldingReadMe.txt
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\scaffoldingreadme.txt
+++SignalR (Azure:SignalR:ConnectionString)
+i:{f085266c-6b95-472d-8527-661185974952}:>5543
+++SQL Server Express LocalDB (Local) (ConnectionStrings:DefaultConnection)
+i:{f085266c-6b95-472d-8527-661185974952}:>5545
+++ServiceDependencies
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\properties\servicedependencies\
+++launchSettings.json
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\properties\launchsettings.json
+++serviceDependencies.json
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\properties\servicedependencies.json
+++bootstrap.min.css
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\bootstrap\bootstrap.min.css
+++font
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\font\
+++FONT-LICENSE
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\font-license
+++ICON-LICENSE
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\icon-license
+++README.md
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\readme.md
+++plant001.png
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\img\plants\plant001.png
+++plant002.png
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\img\plants\plant002.png
 ++Identity
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\
-++Pages
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\
+++ApplicationDbContext.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\data\applicationdbcontext.cs
+++WeatherForecast.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\data\weatherforecast.cs
+++WeatherForecastService.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\data\weatherforecastservice.cs
+++PlantList.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\models\plantlist.cs
+++_LoginPartial.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\shared\_loginpartial.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\shared\_loginpartial.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\shared\_validationscriptspartial.cshtml
+++Error.cshtml.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\error.cshtml.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\error.cshtml.cs
+++MainLayout.razor.css
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\shared\mainlayout.razor.css
+++NavMenu.razor.css
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\shared\navmenu.razor.css
+++appsettings.Development.json
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\appsettings.development.json
+++Dependency signalr1 is missing and needs to be configured for current profile.
+i:{f085266c-6b95-472d-8527-661185974952}:>5544
+++MessagePackAnalyzer
+i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.Analyzers
+i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0-rc.2.21480.10\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0-rc.2.21480.10\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\microsoft.aspnetcore.app
+++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (6.0.0-rc.2.21480.10)
+i:{f085266c-6b95-472d-8527-661185974952}:>5503
+++Microsoft.AspNetCore.Identity.UI (6.0.0-rc.2.21480.10)
+i:{f085266c-6b95-472d-8527-661185974952}:>5511
+++Microsoft.Azure.SignalR (1.12.0)
+i:{f085266c-6b95-472d-8527-661185974952}:>5507
+++Microsoft.EntityFrameworkCore.Tools (6.0.0-rc.2.21480.5)
+i:{f085266c-6b95-472d-8527-661185974952}:>5508
+++Microsoft.VisualStudio.Azure.Containers.Tools.Targets (1.14.0)
+i:{f085266c-6b95-472d-8527-661185974952}:>5509
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.0-rc.2.21511.1)
+i:{f085266c-6b95-472d-8527-661185974952}:>5510
+++Radzen.Blazor (3.11.10)
+i:{f085266c-6b95-472d-8527-661185974952}:>5506
+++Smart.Blazor (10.2.2)
+i:{f085266c-6b95-472d-8527-661185974952}:>5505
+++master_pipseek
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\properties\servicedependencies\master_pipseek\
+++serviceDependencies.local.json
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\properties\servicedependencies.local.json
+++serviceDependencies.master_pipseek.json
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\properties\servicedependencies.master_pipseek.json
+++bootstrap.min.css.map
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\bootstrap\bootstrap.min.css.map
+++fonts
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\font\fonts\
+++RevalidatingIdentityAuthenticationStateProvider.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\revalidatingidentityauthenticationstateprovider.cs
+++mssql1.arm.json
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\properties\servicedependencies\master_pipseek\mssql1.arm.json
+++signalr1.arm.json
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\properties\servicedependencies\master_pipseek\signalr1.arm.json
+++open-iconic-bootstrap.min.css
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
+++open-iconic.eot
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\font\fonts\open-iconic.eot
+++open-iconic.otf
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\font\fonts\open-iconic.otf
+++open-iconic.svg
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\font\fonts\open-iconic.svg
+++open-iconic.ttf
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
+++open-iconic.woff
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\font\fonts\open-iconic.woff
 ++Account
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\
 ++Manage
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\
-++_Layout.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\_layout.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\_layout.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\shared\_layout.cshtml
-++_ManageNav.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\_managenav.cshtml
 ++_StatusMessage.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\_statusmessage.cshtml
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\_statusmessage.cshtml
-++_ViewImports.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\_viewimports.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\_viewimports.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\_viewimports.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\_viewimports.cshtml
-++ChangePassword.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\changepassword.cshtml
-++DeletePersonalData.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\deletepersonaldata.cshtml
-++Disable2fa.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\disable2fa.cshtml
-++DownloadPersonalData.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\downloadpersonaldata.cshtml
-++Email.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\email.cshtml
-++EnableAuthenticator.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\enableauthenticator.cshtml
-++ExternalLogins.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\externallogins.cshtml
-++GenerateRecoveryCodes.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\generaterecoverycodes.cshtml
-++Index.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\index.cshtml
-++ManageNavPages.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\managenavpages.cs
-++PersonalData.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\personaldata.cshtml
-++ResetAuthenticator.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\resetauthenticator.cshtml
-++SetPassword.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\setpassword.cshtml
-++ShowRecoveryCodes.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\showrecoverycodes.cshtml
-++TwoFactorAuthentication.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\twofactorauthentication.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\_statusmessage.cshtml
 ++AccessDenied.cshtml
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\accessdenied.cshtml
 ++ConfirmEmail.cshtml
@@ -242,123 +347,38 @@ i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\a
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\resetpassword.cshtml
 ++ResetPasswordConfirmation.cshtml
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\resetpasswordconfirmation.cshtml
-++Shared
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\shared\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\shared\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\shared\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\scopedcss\shared\
-++_ViewStart.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\_viewstart.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\_viewstart.cshtml
-++Error.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\error.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\error.cshtml
-++RevalidatingIdentityAuthenticationStateProvider.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\revalidatingidentityauthenticationstateprovider.cs
-++bin
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\bin\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\bin\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\
-++Data
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\data\
-++ApplicationDbContext.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\data\applicationdbcontext.cs
-++WeatherForecast.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\data\weatherforecast.cs
-++WeatherForecastService.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\data\weatherforecastservice.cs
-++Models
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\models\
-++obj
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\
-++_Host.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\_host.cshtml
-++Counter.razor
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\counter.razor
-++FetchData.razor
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\fetchdata.razor
-++Index.razor
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\index.razor
-++.gitignore
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\.gitignore
-++_Imports.razor
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\_imports.razor
-++App.razor
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\app.razor
-++appsettings.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\appsettings.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\appsettings.json
-++Pipseek.sln
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.sln
-++Program.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\program.cs
-++ScaffoldingReadMe.txt
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\scaffoldingreadme.txt
-++SignalR (Azure:SignalR:ConnectionString)
-i:{f085266c-6b95-472d-8527-661185974952}:>5122
-++SQL Server Express LocalDB (Local) (ConnectionStrings:DefaultConnection)
-i:{f085266c-6b95-472d-8527-661185974952}:>5124
-++Sdk.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.web\sdk\sdk.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.illink.tasks\sdk\sdk.props
-++Sdk.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.web\sdk\sdk.targets
-++ServiceDependencies
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\properties\servicedependencies\
-++launchSettings.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\properties\launchsettings.json
-++serviceDependencies.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\properties\servicedependencies.json
-++serviceDependencies.local.json.user
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\properties\servicedependencies.local.json.user
-++serviceDependencies.master_pipseek.json.user
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\properties\servicedependencies.master_pipseek.json.user
-++bootstrap.min.css.map
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\bootstrap\bootstrap.min.css.map
-++font
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\font\
-++FONT-LICENSE
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\font-license
-++ICON-LICENSE
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\icon-license
-++README.md
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\readme.md
-++plants
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\img\plants\
-++workflows
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\.github\workflows\
-++ChangePassword.cshtml.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\changepassword.cshtml.cs
-++DeletePersonalData.cshtml.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\deletepersonaldata.cshtml.cs
-++Disable2fa.cshtml.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\disable2fa.cshtml.cs
-++DownloadPersonalData.cshtml.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\downloadpersonaldata.cshtml.cs
-++Email.cshtml.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\email.cshtml.cs
-++EnableAuthenticator.cshtml.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\enableauthenticator.cshtml.cs
-++ExternalLogins.cshtml.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\externallogins.cshtml.cs
-++GenerateRecoveryCodes.cshtml.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\generaterecoverycodes.cshtml.cs
-++Index.cshtml.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\index.cshtml.cs
-++PersonalData.cshtml.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\personaldata.cshtml.cs
-++ResetAuthenticator.cshtml.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\resetauthenticator.cshtml.cs
-++SetPassword.cshtml.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\setpassword.cshtml.cs
-++ShowRecoveryCodes.cshtml.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\showrecoverycodes.cshtml.cs
-++TwoFactorAuthentication.cshtml.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\twofactorauthentication.cshtml.cs
+++_ManageNav.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\_managenav.cshtml
+++ChangePassword.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\changepassword.cshtml
+++DeletePersonalData.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\deletepersonaldata.cshtml
+++Disable2fa.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\disable2fa.cshtml
+++DownloadPersonalData.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\downloadpersonaldata.cshtml
+++Email.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\email.cshtml
+++EnableAuthenticator.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\enableauthenticator.cshtml
+++ExternalLogins.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\externallogins.cshtml
+++GenerateRecoveryCodes.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\generaterecoverycodes.cshtml
+++Index.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\index.cshtml
+++ManageNavPages.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\managenavpages.cs
+++PersonalData.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\personaldata.cshtml
+++ResetAuthenticator.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\resetauthenticator.cshtml
+++SetPassword.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\setpassword.cshtml
+++ShowRecoveryCodes.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\showrecoverycodes.cshtml
+++TwoFactorAuthentication.cshtml
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\twofactorauthentication.cshtml
 ++AccessDenied.cshtml.cs
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\accessdenied.cshtml.cs
 ++ConfirmEmail.cshtml.cs
@@ -391,1218 +411,31 @@ i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\a
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\resetpassword.cshtml.cs
 ++ResetPasswordConfirmation.cshtml.cs
 i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\resetpasswordconfirmation.cshtml.cs
-++_LoginPartial.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\shared\_loginpartial.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\shared\_loginpartial.cshtml
-++Error.cshtml.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\error.cshtml.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\error.cshtml.cs
-++Debug
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\bin\debug\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\debug\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\bin\debug\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\debug\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\debug\
-++PlantList.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\models\plantlist.cs
-++Container
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\container\
-++Pipseek.csproj.nuget.dgspec.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\pipseek.csproj.nuget.dgspec.json
-++Pipseek.csproj.nuget.g.props
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\pipseek.csproj.nuget.g.props
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\pipseek.csproj.nuget.g.props
-++Pipseek.csproj.nuget.g.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\pipseek.csproj.nuget.g.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\pipseek.csproj.nuget.g.targets
-++project.assets.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\project.assets.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\project.assets.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\project.assets.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\project.assets.json
-++project.nuget.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\project.nuget.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\project.nuget.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\project.nuget.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\project.nuget.cache
-++staticwebassets.pack.sentinel
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\staticwebassets.pack.sentinel
-++_ValidationScriptsPartial.cshtml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pages\shared\_validationscriptspartial.cshtml
-++Pipseek.Model.csproj
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\pipseek.model.csproj
-++Pipseek.Services.csproj
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\pipseek.services.csproj
-++Pipseek.Services.Test.csproj
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\pipseek.services.test.csproj
-++LoginDisplay.razor
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\shared\logindisplay.razor
-++MainLayout.razor
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\shared\mainlayout.razor
-++NavMenu.razor
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\shared\navmenu.razor
-++SurveyPrompt.razor
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\shared\surveyprompt.razor
-++appsettings.Development.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\appsettings.development.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\appsettings.development.json
-++Dependency signalr1 is missing and needs to be configured for current profile.
-i:{f085266c-6b95-472d-8527-661185974952}:>5123
-++MessagePackAnalyzer
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
-++Microsoft.AspNetCore.Analyzers
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
-++Microsoft.AspNetCore.App.Analyzers
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0-rc.2.21480.10\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
-++Microsoft.AspNetCore.App.CodeFixes
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0-rc.2.21480.10\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
-++Microsoft.AspNetCore.Components.Analyzers
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
-++Microsoft.AspNetCore.Mvc.Analyzers
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
-++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
-++Microsoft.CodeAnalysis.Analyzers
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
-++Microsoft.CodeAnalysis.CSharp.Analyzers
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
-++Microsoft.NET.Sdk.Razor.SourceGenerators
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
-++Microsoft.AspNetCore.App
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\microsoft.aspnetcore.app
-++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (6.0.0-rc.2.21480.10)
-i:{f085266c-6b95-472d-8527-661185974952}:>5106
-++Microsoft.AspNetCore.Identity.UI (6.0.0-rc.2.21480.10)
-i:{f085266c-6b95-472d-8527-661185974952}:>5113
-++Microsoft.Azure.SignalR (1.12.0)
-i:{f085266c-6b95-472d-8527-661185974952}:>5109
-++Microsoft.EntityFrameworkCore.Tools (6.0.0-rc.2.21480.5)
-i:{f085266c-6b95-472d-8527-661185974952}:>5110
-++Microsoft.VisualStudio.Azure.Containers.Tools.Targets (1.14.0)
-i:{f085266c-6b95-472d-8527-661185974952}:>5111
-++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.0-rc.2.21511.1)
-i:{f085266c-6b95-472d-8527-661185974952}:>5112
-++Smart.Blazor (10.2.2)
-i:{f085266c-6b95-472d-8527-661185974952}:>5108
-++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Sdks\Microsoft.NET.Sdk\Sdk)
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\sdk\sdk.props
-++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.razor\sdk\sdk.props
-++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.props
-++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.publish\sdk\sdk.props
-++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Sdks\Microsoft.NET.Sdk\Sdk)
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\sdk\sdk.targets
-++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.razor\sdk\sdk.targets
-++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.targets
-++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100-rc.2.21505.57\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.publish\sdk\sdk.targets
-++master_pipseek
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\properties\servicedependencies\master_pipseek\
-++serviceDependencies.local.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\properties\servicedependencies.local.json
-++serviceDependencies.master_pipseek.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\properties\servicedependencies.master_pipseek.json
-++fonts
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\font\fonts\
-++plant001.png
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\img\plants\plant001.png
-++plant002.png
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\img\plants\plant002.png
-++master_pipseek.yml
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\.github\workflows\master_pipseek.yml
-++net6.0
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\bin\debug\net6.0\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\debug\net6.0\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\bin\debug\net6.0\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\debug\net6.0\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\debug\net6.0\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win-arm\lib\net6.0\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win-arm64\lib\net6.0\
-++ContainerCreationResult.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\container\containercreationresult.cache
-++ContainerDevelopmentMode.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\container\containerdevelopmentmode.cache
-++ContainerId.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\container\containerid.cache
-++ContainerName.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\container\containername.cache
-++ContainerOperatingSystemFlavor.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\container\containeroperatingsystemflavor.cache
-++ContainerRunContext.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\container\containerruncontext.cache
-++OperatingSystemName.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\container\operatingsystemname.cache
-++TargetFramework.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\container\targetframework.cache
-++Pipseek.Model.csproj.nuget.dgspec.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\pipseek.model.csproj.nuget.dgspec.json
-++Pipseek.Model.csproj.nuget.g.props
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\pipseek.model.csproj.nuget.g.props
-++Pipseek.Model.csproj.nuget.g.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\pipseek.model.csproj.nuget.g.targets
-++Pipseek.Services.csproj.nuget.dgspec.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\pipseek.services.csproj.nuget.dgspec.json
-++Pipseek.Services.csproj.nuget.g.props
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\pipseek.services.csproj.nuget.g.props
-++Pipseek.Services.csproj.nuget.g.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\pipseek.services.csproj.nuget.g.targets
-++Pipseek.Services.Test.csproj.nuget.dgspec.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\pipseek.services.test.csproj.nuget.dgspec.json
-++Pipseek.Services.Test.csproj.nuget.g.props
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\pipseek.services.test.csproj.nuget.g.props
-++Pipseek.Services.Test.csproj.nuget.g.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\pipseek.services.test.csproj.nuget.g.targets
-++MainLayout.razor.css
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\shared\mainlayout.razor.css
-++NavMenu.razor.css
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\shared\navmenu.razor.css
-++Microsoft.Common.props
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\microsoft.common.props
-++Microsoft.NET.Sdk.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.props
-++Sdk.Razor.CurrentVersion.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.props
-++Microsoft.NET.Sdk.Web.ProjectSystem.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.props
-++Microsoft.NET.Sdk.Publish.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.props
-++Microsoft.NET.Sdk.BeforeCommon.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.beforecommon.targets
-++Microsoft.CSharp.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\bin\amd64\microsoft.csharp.targets
-++Microsoft.NET.Sdk.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.targets
-++Microsoft.NET.Compatibility.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.targets
-++NuGet.Build.Tasks.Pack.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
-++Sdk.Razor.CurrentVersion.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.targets
-++Microsoft.NET.Sdk.Web.ProjectSystem.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.targets
-++Microsoft.NET.Sdk.Publish.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.targets
-++mssql1.arm.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\properties\servicedependencies\master_pipseek\mssql1.arm.json
-++signalr1.arm.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\properties\servicedependencies\master_pipseek\signalr1.arm.json
-++open-iconic-bootstrap.min.css
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
-++open-iconic.eot
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\font\fonts\open-iconic.eot
-++open-iconic.otf
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\font\fonts\open-iconic.otf
-++open-iconic.svg
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\font\fonts\open-iconic.svg
-++open-iconic.ttf
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
-++open-iconic.woff
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\wwwroot\css\open-iconic\font\fonts\open-iconic.woff
-++cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\cs\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\cs\
-++de
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\de\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\de\
-++es
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\es\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\es\
-++fr
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\fr\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\fr\
-++it
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\it\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\it\
-++ja
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ja\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\ja\
-++ko
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ko\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\ko\
-++pl
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pl\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\pl\
-++pt-BR
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pt-br\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\pt-br\
-++ref
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ref\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\ref\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\bin\debug\net6.0\ref\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\debug\net6.0\ref\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\bin\debug\net6.0\ref\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\debug\net6.0\ref\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\ref\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\debug\net6.0\ref\
-++ru
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ru\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\ru\
-++runtimes
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\
-++tr
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\tr\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\tr\
-++zh-Hans
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hans\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\zh-hans\
-++zh-Hant
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hant\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\zh-hant\
-++Azure.Core.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\azure.core.dll
-++Azure.Identity.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\azure.identity.dll
-++dotnet-aspnet-codegenerator-design.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\dotnet-aspnet-codegenerator-design.dll
-++Humanizer.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\humanizer.dll
-++MessagePack.Annotations.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\messagepack.annotations.dll
-++MessagePack.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\messagepack.dll
-++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.aspnetcore.diagnostics.entityframeworkcore.dll
-++Microsoft.AspNetCore.Http.Connections.Client.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.aspnetcore.http.connections.client.dll
-++Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.aspnetcore.identity.entityframeworkcore.dll
-++Microsoft.AspNetCore.Identity.UI.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.aspnetcore.identity.ui.dll
-++Microsoft.AspNetCore.Razor.Language.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.aspnetcore.razor.language.dll
-++Microsoft.Azure.SignalR.Common.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.azure.signalr.common.dll
-++Microsoft.Azure.SignalR.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.azure.signalr.dll
-++Microsoft.Azure.SignalR.Protocols.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.azure.signalr.protocols.dll
-++Microsoft.Bcl.AsyncInterfaces.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.bcl.asyncinterfaces.dll
-++Microsoft.Build.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.build.dll
-++Microsoft.Build.Framework.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.build.framework.dll
-++Microsoft.Build.Tasks.Core.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.build.tasks.core.dll
-++Microsoft.Build.Utilities.Core.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.build.utilities.core.dll
-++Microsoft.CodeAnalysis.AnalyzerUtilities.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.codeanalysis.analyzerutilities.dll
-++Microsoft.CodeAnalysis.CSharp.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.codeanalysis.csharp.dll
-++Microsoft.CodeAnalysis.CSharp.Features.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.codeanalysis.csharp.features.dll
-++Microsoft.CodeAnalysis.CSharp.Scripting.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.codeanalysis.csharp.scripting.dll
-++Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.codeanalysis.csharp.workspaces.dll
-++Microsoft.CodeAnalysis.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.codeanalysis.dll
-++Microsoft.CodeAnalysis.Features.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.codeanalysis.features.dll
-++Microsoft.CodeAnalysis.Razor.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.codeanalysis.razor.dll
-++Microsoft.CodeAnalysis.Scripting.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.codeanalysis.scripting.dll
-++Microsoft.CodeAnalysis.VisualBasic.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.codeanalysis.visualbasic.dll
-++Microsoft.CodeAnalysis.VisualBasic.Features.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.codeanalysis.visualbasic.features.dll
-++Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.codeanalysis.visualbasic.workspaces.dll
-++Microsoft.CodeAnalysis.Workspaces.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.codeanalysis.workspaces.dll
-++Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.codeanalysis.workspaces.msbuild.dll
-++Microsoft.Data.SqlClient.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.data.sqlclient.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
-++Microsoft.DiaSymReader.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.diasymreader.dll
-++Microsoft.DotNet.Scaffolding.Shared.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.dotnet.scaffolding.shared.dll
-++Microsoft.EntityFrameworkCore.Abstractions.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.entityframeworkcore.abstractions.dll
-++Microsoft.EntityFrameworkCore.Design.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.entityframeworkcore.design.dll
-++Microsoft.EntityFrameworkCore.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.entityframeworkcore.dll
-++Microsoft.EntityFrameworkCore.Relational.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.entityframeworkcore.relational.dll
-++Microsoft.EntityFrameworkCore.SqlServer.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.entityframeworkcore.sqlserver.dll
-++Microsoft.Identity.Client.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.identity.client.dll
-++Microsoft.Identity.Client.Extensions.Msal.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.identity.client.extensions.msal.dll
-++Microsoft.IdentityModel.JsonWebTokens.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.identitymodel.jsonwebtokens.dll
-++Microsoft.IdentityModel.Logging.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.identitymodel.logging.dll
-++Microsoft.IdentityModel.Protocols.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.identitymodel.protocols.dll
-++Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.identitymodel.protocols.openidconnect.dll
-++Microsoft.IdentityModel.Tokens.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.identitymodel.tokens.dll
-++Microsoft.Rest.ClientRuntime.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.rest.clientruntime.dll
-++Microsoft.VisualStudio.Debugger.Contracts.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.visualstudio.debugger.contracts.dll
-++Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.visualstudio.web.codegeneration.core.dll
-++Microsoft.VisualStudio.Web.CodeGeneration.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.visualstudio.web.codegeneration.dll
-++Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.visualstudio.web.codegeneration.entityframeworkcore.dll
-++Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.visualstudio.web.codegeneration.templating.dll
-++Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.visualstudio.web.codegeneration.utils.dll
-++Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.visualstudio.web.codegenerators.mvc.dll
-++Microsoft.Win32.SystemEvents.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\microsoft.win32.systemevents.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\microsoft.win32.systemevents.dll
-++Newtonsoft.Json.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\newtonsoft.json.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\newtonsoft.json.dll
-++NuGet.Common.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\nuget.common.dll
-++NuGet.Configuration.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\nuget.configuration.dll
-++NuGet.DependencyResolver.Core.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\nuget.dependencyresolver.core.dll
-++NuGet.Frameworks.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\nuget.frameworks.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\nuget.frameworks.dll
-++NuGet.LibraryModel.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\nuget.librarymodel.dll
-++NuGet.Packaging.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\nuget.packaging.dll
-++NuGet.ProjectModel.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\nuget.projectmodel.dll
-++NuGet.Protocol.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\nuget.protocol.dll
-++NuGet.Versioning.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\nuget.versioning.dll
-++Pipseek.deps.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pipseek.deps.json
-++Pipseek.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pipseek.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\pipseek.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ref\pipseek.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\ref\pipseek.dll
-++Pipseek.exe
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pipseek.exe
-++Pipseek.Model.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pipseek.model.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\bin\debug\net6.0\pipseek.model.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\debug\net6.0\pipseek.model.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\bin\debug\net6.0\pipseek.model.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\bin\debug\net6.0\ref\pipseek.model.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\debug\net6.0\ref\pipseek.model.dll
-++Pipseek.Model.pdb
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pipseek.model.pdb
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\bin\debug\net6.0\pipseek.model.pdb
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\debug\net6.0\pipseek.model.pdb
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\bin\debug\net6.0\pipseek.model.pdb
-++Pipseek.pdb
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pipseek.pdb
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\pipseek.pdb
-++Pipseek.runtimeconfig.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pipseek.runtimeconfig.json
-++Pipseek.Services.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pipseek.services.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\bin\debug\net6.0\pipseek.services.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\debug\net6.0\pipseek.services.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\bin\debug\net6.0\ref\pipseek.services.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\debug\net6.0\ref\pipseek.services.dll
-++Pipseek.Services.pdb
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pipseek.services.pdb
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\bin\debug\net6.0\pipseek.services.pdb
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\debug\net6.0\pipseek.services.pdb
-++Pipseek.staticwebassets.runtime.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pipseek.staticwebassets.runtime.json
-++Smart.Blazor.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\smart.blazor.dll
-++System.CodeDom.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\system.codedom.dll
-++System.Composition.AttributedModel.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\system.composition.attributedmodel.dll
-++System.Composition.Convention.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\system.composition.convention.dll
-++System.Composition.Hosting.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\system.composition.hosting.dll
-++System.Composition.Runtime.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\system.composition.runtime.dll
-++System.Composition.TypedParts.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\system.composition.typedparts.dll
-++System.Configuration.ConfigurationManager.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\system.configuration.configurationmanager.dll
-++System.Drawing.Common.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\system.drawing.common.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.0\system.drawing.common.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\system.drawing.common.dll
-++System.IdentityModel.Tokens.Jwt.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\system.identitymodel.tokens.jwt.dll
-++System.Memory.Data.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\system.memory.data.dll
-++System.Resources.Extensions.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\system.resources.extensions.dll
-++System.Runtime.Caching.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\system.runtime.caching.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\system.runtime.caching.dll
-++System.Security.Cryptography.ProtectedData.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\system.security.cryptography.protecteddata.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\system.security.cryptography.protecteddata.dll
-++System.Security.Permissions.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\system.security.permissions.dll
-++System.Windows.Extensions.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\system.windows.extensions.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\system.windows.extensions.dll
-++scopedcss
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\scopedcss\
-++staticwebassets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\staticwebassets\
-++.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\debug\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\debug\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\debug\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
-++apphost.exe
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\apphost.exe
-++Pipseek.AssemblyInfo.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\pipseek.assemblyinfo.cs
-++Pipseek.AssemblyInfoInputs.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\pipseek.assemblyinfoinputs.cache
-++Pipseek.assets.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\pipseek.assets.cache
-++Pipseek.csproj.AssemblyReference.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\pipseek.csproj.assemblyreference.cache
-++Pipseek.csproj.CoreCompileInputs.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\pipseek.csproj.corecompileinputs.cache
-++Pipseek.csproj.FileListAbsolute.txt
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\pipseek.csproj.filelistabsolute.txt
-++Pipseek.GeneratedMSBuildEditorConfig.editorconfig
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\pipseek.generatedmsbuildeditorconfig.editorconfig
-++Pipseek.genruntimeconfig.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\pipseek.genruntimeconfig.cache
-++Pipseek.GlobalUsings.g.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\pipseek.globalusings.g.cs
-++Pipseek.MvcApplicationPartsAssemblyInfo.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\pipseek.mvcapplicationpartsassemblyinfo.cache
-++Pipseek.MvcApplicationPartsAssemblyInfo.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\pipseek.mvcapplicationpartsassemblyinfo.cs
-++Pipseek.RazorAssemblyInfo.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\pipseek.razorassemblyinfo.cache
-++Pipseek.RazorAssemblyInfo.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\pipseek.razorassemblyinfo.cs
-++project.razor.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\project.razor.json
-++staticwebassets.build.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\staticwebassets.build.json
-++staticwebassets.development.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\staticwebassets.development.json
-++Microsoft.NuGet.ImportBefore.props
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.nuget.importbefore.props
-++NuGet.props
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\nuget\nuget.props
-++Microsoft.NET.Sdk.DefaultItems.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.props
-++Microsoft.NET.Sdk.ImportWorkloads.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.props
-++Microsoft.NET.SupportedTargetFrameworks.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.supportedtargetframeworks.props
-++Microsoft.NET.SupportedPlatforms.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.supportedplatforms.props
-++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.windowssdksupportedtargetplatforms.props
-++Microsoft.NET.Sdk.CSharp.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.props
-++Microsoft.NET.ILLink.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.illink.props
-++Microsoft.NET.Compatibility.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.props
-++Microsoft.NET.PackTool.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.props
-++Microsoft.NET.PackProjectTool.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.props
-++Microsoft.NET.Sdk.WindowsDesktop.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.props
-++Microsoft.NET.Windows.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.windows.props
-++Sdk.Razor.StaticAssets.ProjectSystem.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.razor\sdk\sdk.razor.staticassets.projectsystem.props
-++Microsoft.TypeScript.Default.props
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.default.props
-++Microsoft.NET.Sdk.Web.DefaultItems.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.defaultitems.props
-++Microsoft.NET.DefaultAssemblyInfo.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.defaultassemblyinfo.targets
-++Microsoft.NET.DefaultOutputPaths.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.defaultoutputpaths.targets
-++Microsoft.NET.Sdk.ImportPublishProfile.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importpublishprofile.targets
-++Microsoft.NET.TargetFrameworkInference.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.targetframeworkinference.targets
-++Microsoft.NET.Sdk.Razor.BeforeCommon.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.beforecommon.targets
-++Microsoft.NET.Sdk.ImportWorkloads.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.targets
-++Microsoft.NET.RuntimeIdentifierInference.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.runtimeidentifierinference.targets
-++Microsoft.NET.EolTargetFrameworks.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.eoltargetframeworks.targets
-++Microsoft.NET.NuGetOfflineCache.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.nugetofflinecache.targets
-++Microsoft.Managed.Before.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\bin\amd64\microsoft.managed.before.targets
-++Microsoft.CSharp.CurrentVersion.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\bin\amd64\microsoft.csharp.currentversion.targets
-++Microsoft.Managed.After.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\bin\amd64\microsoft.managed.after.targets
-++Microsoft.NET.Sdk.Common.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.common.targets
-++Microsoft.PackageDependencyResolution.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.packagedependencyresolution.targets
-++Microsoft.NET.Sdk.DefaultItems.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.targets
-++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.frameworkreferenceresolution.targets
-++Microsoft.NET.Sdk.Shared.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.shared.targets
-++Microsoft.NET.DisableStandardFrameworkResolution.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.disablestandardframeworkresolution.targets
-++Microsoft.NET.DesignerSupport.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.designersupport.targets
-++Microsoft.NET.GenerateAssemblyInfo.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.generateassemblyinfo.targets
-++Microsoft.NET.GenerateGlobalUsings.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.generateglobalusings.targets
-++Microsoft.NET.GenerateSupportedRuntime.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.generatesupportedruntime.targets
-++Microsoft.NET.ComposeStore.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.composestore.targets
-++Microsoft.NET.CrossGen.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.crossgen.targets
-++Microsoft.NET.ObsoleteReferences.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.obsoletereferences.targets
-++Microsoft.NET.Publish.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.publish.targets
-++Microsoft.NET.PackTool.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.targets
-++Microsoft.NET.PackProjectTool.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.targets
-++Microsoft.NET.PreserveCompilationContext.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.preservecompilationcontext.targets
-++Microsoft.NET.ConflictResolution.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.conflictresolution.targets
-++Microsoft.NET.Sdk.CSharp.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
-++Microsoft.NET.ILLink.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
-++Microsoft.NET.Sdk.Analyzers.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
-++Microsoft.NET.Compatibility.Common.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
-++Microsoft.NET.Sdk.Razor.Configuration.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.configuration.targets
-++Microsoft.NET.Sdk.Razor.CodeGeneration.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.codegeneration.targets
-++Microsoft.NET.Sdk.Razor.SourceGenerators.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.sourcegenerators.targets
-++Microsoft.NET.Sdk.Razor.StaticWebAssets.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.staticwebassets.targets
-++Microsoft.NET.Sdk.Razor.ScopedCss.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.scopedcss.targets
-++Microsoft.NET.Sdk.Razor.JSModules.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.jsmodules.targets
-++Microsoft.NET.Sdk.Razor.GenerateAssemblyInfo.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.generateassemblyinfo.targets
-++Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.mvcapplicationpartsdiscovery.targets
-++Microsoft.NET.Sdk.Razor.DesignTime.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\microsoft\visualstudio\razor\microsoft.net.sdk.razor.designtime.targets
-++Microsoft.TypeScript.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files (x86)\microsoft sdks\typescript\4.3\build\microsoft.typescript.targets
-++Microsoft.TypeScript.DotNetCore.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.dotnetcore.targets
-++Microsoft.Web.Designtime.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\microsoft\visualstudio\managed.web\microsoft.web.designtime.targets
-++Default.pubxml
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.publish\targets\publishprofiles\default.pubxml
-++Microsoft.NET.Sdk.Publish.ComputeFiles.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.publish\targets\computetargets\microsoft.net.sdk.publish.computefiles.targets
-++Microsoft.NET.Sdk.Publish.FilterFiles.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.publish\targets\copytargets\microsoft.net.sdk.publish.filterfiles.targets
-++Microsoft.NET.Sdk.Publish.CopyFiles.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.publish\targets\copytargets\microsoft.net.sdk.publish.copyfiles.targets
-++Microsoft.NET.Sdk.Publish.TransformFiles.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.publish\targets\transformtargets\microsoft.net.sdk.publish.transformfiles.targets
-++Microsoft.NET.Sdk.Publish.FileSystem.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.publish\targets\publishtargets\microsoft.net.sdk.publish.filesystem.targets
-++Microsoft.NET.Sdk.DotNetCLITool.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.publish\targets\dotnetclitooltargets\microsoft.net.sdk.dotnetclitool.targets
-++Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\cs\microsoft.codeanalysis.csharp.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\de\microsoft.codeanalysis.csharp.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\es\microsoft.codeanalysis.csharp.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\fr\microsoft.codeanalysis.csharp.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\it\microsoft.codeanalysis.csharp.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ja\microsoft.codeanalysis.csharp.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ko\microsoft.codeanalysis.csharp.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pl\microsoft.codeanalysis.csharp.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pt-br\microsoft.codeanalysis.csharp.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ru\microsoft.codeanalysis.csharp.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\tr\microsoft.codeanalysis.csharp.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.csharp.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.csharp.features.resources.dll
-++Microsoft.CodeAnalysis.CSharp.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\cs\microsoft.codeanalysis.csharp.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\de\microsoft.codeanalysis.csharp.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\es\microsoft.codeanalysis.csharp.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\fr\microsoft.codeanalysis.csharp.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\it\microsoft.codeanalysis.csharp.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ja\microsoft.codeanalysis.csharp.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ko\microsoft.codeanalysis.csharp.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pl\microsoft.codeanalysis.csharp.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pt-br\microsoft.codeanalysis.csharp.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ru\microsoft.codeanalysis.csharp.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\tr\microsoft.codeanalysis.csharp.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.csharp.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.csharp.resources.dll
-++Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\cs\microsoft.codeanalysis.csharp.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\de\microsoft.codeanalysis.csharp.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\es\microsoft.codeanalysis.csharp.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\fr\microsoft.codeanalysis.csharp.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\it\microsoft.codeanalysis.csharp.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ja\microsoft.codeanalysis.csharp.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ko\microsoft.codeanalysis.csharp.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pl\microsoft.codeanalysis.csharp.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pt-br\microsoft.codeanalysis.csharp.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ru\microsoft.codeanalysis.csharp.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\tr\microsoft.codeanalysis.csharp.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.csharp.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.csharp.scripting.resources.dll
-++Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\cs\microsoft.codeanalysis.csharp.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\de\microsoft.codeanalysis.csharp.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\es\microsoft.codeanalysis.csharp.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\fr\microsoft.codeanalysis.csharp.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\it\microsoft.codeanalysis.csharp.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ja\microsoft.codeanalysis.csharp.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ko\microsoft.codeanalysis.csharp.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pl\microsoft.codeanalysis.csharp.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pt-br\microsoft.codeanalysis.csharp.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ru\microsoft.codeanalysis.csharp.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\tr\microsoft.codeanalysis.csharp.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.csharp.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.csharp.workspaces.resources.dll
-++Microsoft.CodeAnalysis.Features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\cs\microsoft.codeanalysis.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\de\microsoft.codeanalysis.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\es\microsoft.codeanalysis.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\fr\microsoft.codeanalysis.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\it\microsoft.codeanalysis.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ja\microsoft.codeanalysis.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ko\microsoft.codeanalysis.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pl\microsoft.codeanalysis.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pt-br\microsoft.codeanalysis.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ru\microsoft.codeanalysis.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\tr\microsoft.codeanalysis.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.features.resources.dll
-++Microsoft.CodeAnalysis.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\cs\microsoft.codeanalysis.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\de\microsoft.codeanalysis.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\es\microsoft.codeanalysis.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\fr\microsoft.codeanalysis.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\it\microsoft.codeanalysis.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ja\microsoft.codeanalysis.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ko\microsoft.codeanalysis.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pl\microsoft.codeanalysis.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pt-br\microsoft.codeanalysis.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ru\microsoft.codeanalysis.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\tr\microsoft.codeanalysis.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.resources.dll
-++Microsoft.CodeAnalysis.Scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\cs\microsoft.codeanalysis.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\de\microsoft.codeanalysis.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\es\microsoft.codeanalysis.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\fr\microsoft.codeanalysis.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\it\microsoft.codeanalysis.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ja\microsoft.codeanalysis.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ko\microsoft.codeanalysis.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pl\microsoft.codeanalysis.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pt-br\microsoft.codeanalysis.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ru\microsoft.codeanalysis.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\tr\microsoft.codeanalysis.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.scripting.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.scripting.resources.dll
-++Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\cs\microsoft.codeanalysis.visualbasic.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\de\microsoft.codeanalysis.visualbasic.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\es\microsoft.codeanalysis.visualbasic.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\fr\microsoft.codeanalysis.visualbasic.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\it\microsoft.codeanalysis.visualbasic.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ja\microsoft.codeanalysis.visualbasic.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ko\microsoft.codeanalysis.visualbasic.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pl\microsoft.codeanalysis.visualbasic.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pt-br\microsoft.codeanalysis.visualbasic.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ru\microsoft.codeanalysis.visualbasic.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\tr\microsoft.codeanalysis.visualbasic.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.visualbasic.features.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.visualbasic.features.resources.dll
-++Microsoft.CodeAnalysis.VisualBasic.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\cs\microsoft.codeanalysis.visualbasic.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\de\microsoft.codeanalysis.visualbasic.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\es\microsoft.codeanalysis.visualbasic.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\fr\microsoft.codeanalysis.visualbasic.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\it\microsoft.codeanalysis.visualbasic.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ja\microsoft.codeanalysis.visualbasic.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ko\microsoft.codeanalysis.visualbasic.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pl\microsoft.codeanalysis.visualbasic.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pt-br\microsoft.codeanalysis.visualbasic.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ru\microsoft.codeanalysis.visualbasic.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\tr\microsoft.codeanalysis.visualbasic.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.visualbasic.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.visualbasic.resources.dll
-++Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\cs\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\de\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\es\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\fr\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\it\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ja\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ko\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pl\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pt-br\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ru\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\tr\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
-++Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\cs\microsoft.codeanalysis.workspaces.msbuild.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\de\microsoft.codeanalysis.workspaces.msbuild.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\es\microsoft.codeanalysis.workspaces.msbuild.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\fr\microsoft.codeanalysis.workspaces.msbuild.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\it\microsoft.codeanalysis.workspaces.msbuild.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ja\microsoft.codeanalysis.workspaces.msbuild.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ko\microsoft.codeanalysis.workspaces.msbuild.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pl\microsoft.codeanalysis.workspaces.msbuild.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pt-br\microsoft.codeanalysis.workspaces.msbuild.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ru\microsoft.codeanalysis.workspaces.msbuild.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\tr\microsoft.codeanalysis.workspaces.msbuild.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.workspaces.msbuild.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.workspaces.msbuild.resources.dll
-++Microsoft.CodeAnalysis.Workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\cs\microsoft.codeanalysis.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\de\microsoft.codeanalysis.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\es\microsoft.codeanalysis.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\fr\microsoft.codeanalysis.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\it\microsoft.codeanalysis.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ja\microsoft.codeanalysis.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ko\microsoft.codeanalysis.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pl\microsoft.codeanalysis.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\pt-br\microsoft.codeanalysis.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\ru\microsoft.codeanalysis.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\tr\microsoft.codeanalysis.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.workspaces.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.workspaces.resources.dll
-++unix
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\unix\
-++win
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win\
-++win-arm
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win-arm\
-++win-arm64
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win-arm64\
-++win-x64
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win-x64\
-++win-x86
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win-x86\
-++bundle
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\scopedcss\bundle\
-++projectbundle
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\scopedcss\projectbundle\
-++Pipseek.Model.deps.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\bin\debug\net6.0\pipseek.model.deps.json
-++Pipseek.Model.AssemblyInfo.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\debug\net6.0\pipseek.model.assemblyinfo.cs
-++Pipseek.Model.AssemblyInfoInputs.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\debug\net6.0\pipseek.model.assemblyinfoinputs.cache
-++Pipseek.Model.assets.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\debug\net6.0\pipseek.model.assets.cache
-++Pipseek.Model.csproj.AssemblyReference.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\debug\net6.0\pipseek.model.csproj.assemblyreference.cache
-++Pipseek.Model.csproj.CoreCompileInputs.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\debug\net6.0\pipseek.model.csproj.corecompileinputs.cache
-++Pipseek.Model.csproj.FileListAbsolute.txt
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\debug\net6.0\pipseek.model.csproj.filelistabsolute.txt
-++Pipseek.Model.GeneratedMSBuildEditorConfig.editorconfig
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\debug\net6.0\pipseek.model.generatedmsbuildeditorconfig.editorconfig
-++Pipseek.Model.GlobalUsings.g.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.model\obj\debug\net6.0\pipseek.model.globalusings.g.cs
-++Pipseek.Services.deps.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\bin\debug\net6.0\pipseek.services.deps.json
-++Pipseek.Services.AssemblyInfo.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\debug\net6.0\pipseek.services.assemblyinfo.cs
-++Pipseek.Services.AssemblyInfoInputs.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\debug\net6.0\pipseek.services.assemblyinfoinputs.cache
-++Pipseek.Services.assets.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\debug\net6.0\pipseek.services.assets.cache
-++Pipseek.Services.csproj.AssemblyReference.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\debug\net6.0\pipseek.services.csproj.assemblyreference.cache
-++Pipseek.Services.csproj.CoreCompileInputs.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\debug\net6.0\pipseek.services.csproj.corecompileinputs.cache
-++Pipseek.Services.csproj.FileListAbsolute.txt
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\debug\net6.0\pipseek.services.csproj.filelistabsolute.txt
-++Pipseek.Services.GeneratedMSBuildEditorConfig.editorconfig
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\debug\net6.0\pipseek.services.generatedmsbuildeditorconfig.editorconfig
-++Pipseek.Services.GlobalUsings.g.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services\obj\debug\net6.0\pipseek.services.globalusings.g.cs
-++Microsoft.TestPlatform.CommunicationUtilities.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\microsoft.testplatform.communicationutilities.dll
-++Microsoft.TestPlatform.CoreUtilities.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\microsoft.testplatform.coreutilities.dll
-++Microsoft.TestPlatform.CrossPlatEngine.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\microsoft.testplatform.crossplatengine.dll
-++Microsoft.TestPlatform.PlatformAbstractions.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\microsoft.testplatform.platformabstractions.dll
-++Microsoft.TestPlatform.Utilities.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\microsoft.testplatform.utilities.dll
-++Microsoft.VisualStudio.CodeCoverage.Shim.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\microsoft.visualstudio.codecoverage.shim.dll
-++Microsoft.VisualStudio.TestPlatform.Common.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\microsoft.visualstudio.testplatform.common.dll
-++Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\microsoft.visualstudio.testplatform.objectmodel.dll
-++nunit.engine.api.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\nunit.engine.api.dll
-++nunit.engine.core.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\nunit.engine.core.dll
-++nunit.engine.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\nunit.engine.dll
-++nunit.framework.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\nunit.framework.dll
-++NUnit3.TestAdapter.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\nunit3.testadapter.dll
-++NUnit3.TestAdapter.pdb
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\nunit3.testadapter.pdb
-++Pipseek.Services.Test.deps.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\pipseek.services.test.deps.json
-++Pipseek.Services.Test.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\pipseek.services.test.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\debug\net6.0\pipseek.services.test.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\ref\pipseek.services.test.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\debug\net6.0\ref\pipseek.services.test.dll
-++Pipseek.Services.Test.pdb
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\pipseek.services.test.pdb
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\debug\net6.0\pipseek.services.test.pdb
-++Pipseek.Services.Test.runtimeconfig.json
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\pipseek.services.test.runtimeconfig.json
-++testcentric.engine.metadata.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\testcentric.engine.metadata.dll
-++testhost.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\testhost.dll
-++testhost.exe
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\testhost.exe
-++Pipseek.Services.Test.AssemblyInfo.cs
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\debug\net6.0\pipseek.services.test.assemblyinfo.cs
-++Pipseek.Services.Test.AssemblyInfoInputs.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\debug\net6.0\pipseek.services.test.assemblyinfoinputs.cache
-++Pipseek.Services.Test.assets.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\debug\net6.0\pipseek.services.test.assets.cache
-++Pipseek.Services.Test.csproj.AssemblyReference.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\debug\net6.0\pipseek.services.test.csproj.assemblyreference.cache
-++Pipseek.Services.Test.csproj.CopyComplete
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\debug\net6.0\pipseek.services.test.csproj.copycomplete
-++Pipseek.Services.Test.csproj.CoreCompileInputs.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\debug\net6.0\pipseek.services.test.csproj.corecompileinputs.cache
-++Pipseek.Services.Test.csproj.FileListAbsolute.txt
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\debug\net6.0\pipseek.services.test.csproj.filelistabsolute.txt
-++Pipseek.Services.Test.GeneratedMSBuildEditorConfig.editorconfig
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\debug\net6.0\pipseek.services.test.generatedmsbuildeditorconfig.editorconfig
-++Pipseek.Services.Test.genruntimeconfig.cache
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\obj\debug\net6.0\pipseek.services.test.genruntimeconfig.cache
-++Smart.Blazor.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\smart.blazor\10.2.2\buildtransitive\smart.blazor.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\smart.blazor\10.2.2\buildmultitargeting\smart.blazor.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\smart.blazor\10.2.2\build\smart.blazor.props
-++Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\microsoft.visualstudio.azure.containers.tools.targets\1.14.0\build\microsoft.visualstudio.azure.containers.tools.targets.props
-++Microsoft.EntityFrameworkCore.Design.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\microsoft.entityframeworkcore.design\6.0.0-rc.2.21480.5\build\net6.0\microsoft.entityframeworkcore.design.props
-++Microsoft.AspNetCore.Identity.UI.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.0-rc.2.21480.10\build\microsoft.aspnetcore.identity.ui.props
-++Microsoft.NuGet.props
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\microsoft\nuget\17.0\microsoft.nuget.props
-++Microsoft.NETCoreSdk.BundledVersions.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\microsoft.netcoresdk.bundledversions.props
-++AutoImport.props (C:\Program Files\dotnet\packs\Microsoft.Android.Sdk.Windows\31.0.101-preview.9.16\Sdk)
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\packs\microsoft.android.sdk.windows\31.0.101-preview.9.16\sdk\autoimport.props
-++AutoImport.props (C:\Program Files\dotnet\packs\Microsoft.iOS.Sdk\15.0.101-preview.9.31\Sdk)
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\packs\microsoft.ios.sdk\15.0.101-preview.9.31\sdk\autoimport.props
-++AutoImport.props (C:\Program Files\dotnet\packs\Microsoft.MacCatalyst.Sdk\15.0.101-preview.9.31\Sdk)
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\packs\microsoft.maccatalyst.sdk\15.0.101-preview.9.31\sdk\autoimport.props
-++AutoImport.props (C:\Program Files\dotnet\packs\Microsoft.Maui.Sdk\6.0.101-preview.9.1843\Sdk)
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\packs\microsoft.maui.sdk\6.0.101-preview.9.1843\sdk\autoimport.props
-++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.windowsforms.props
-++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.wpf.props
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android)
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android\workloadmanifest.targets
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios)
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios\workloadmanifest.targets
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst)
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst\workloadmanifest.targets
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos)
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos\workloadmanifest.targets
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui)
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui\workloadmanifest.targets
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos)
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos\workloadmanifest.targets
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten)
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten\workloadmanifest.targets
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain)
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain\workloadmanifest.targets
-++Microsoft.CSharp.Core.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\bin\roslyn\microsoft.csharp.core.targets
-++Microsoft.CSharp.DesignTime.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\microsoft\visualstudio\managed\microsoft.csharp.designtime.targets
-++Microsoft.Common.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\bin\amd64\microsoft.common.targets
-++Microsoft.ServiceModel.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\bin\amd64\microsoft.servicemodel.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.servicemodel.targets
-++Microsoft.NET.Sdk.DefaultItems.Shared.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.shared.targets
-++Microsoft.NETCoreSdk.BundledCliTools.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\microsoft.netcoresdk.bundledclitools.props
-++Microsoft.NET.DefaultPackageConflictOverrides.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\targets\microsoft.net.defaultpackageconflictoverrides.targets
-++Microsoft.CodeAnalysis.NetAnalyzers.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
-++Microsoft.CodeAnalysis.NetAnalyzers.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.targets
-++04.03.05.00.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files (x86)\microsoft sdks\typescript\versions\04.03.05.00.props
-++lib
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\unix\lib\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win\lib\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win-arm\lib\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win-arm64\lib\
-++native
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win-arm\native\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win-arm64\native\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win-x64\native\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win-x86\native\
-++Pipseek.styles.css
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\scopedcss\bundle\pipseek.styles.css
-++Pipseek.bundle.scp.css
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\scopedcss\projectbundle\pipseek.bundle.scp.css
-++MainLayout.razor.rz.scp.css
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\scopedcss\shared\mainlayout.razor.rz.scp.css
-++NavMenu.razor.rz.scp.css
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\obj\debug\net6.0\scopedcss\shared\navmenu.razor.rz.scp.css
-++Microsoft.TestPlatform.CommunicationUtilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\cs\microsoft.testplatform.communicationutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\de\microsoft.testplatform.communicationutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\es\microsoft.testplatform.communicationutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\fr\microsoft.testplatform.communicationutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\it\microsoft.testplatform.communicationutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\ja\microsoft.testplatform.communicationutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\ko\microsoft.testplatform.communicationutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\pl\microsoft.testplatform.communicationutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\pt-br\microsoft.testplatform.communicationutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\ru\microsoft.testplatform.communicationutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\tr\microsoft.testplatform.communicationutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\zh-hans\microsoft.testplatform.communicationutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\zh-hant\microsoft.testplatform.communicationutilities.resources.dll
-++Microsoft.TestPlatform.CoreUtilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\cs\microsoft.testplatform.coreutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\de\microsoft.testplatform.coreutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\es\microsoft.testplatform.coreutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\fr\microsoft.testplatform.coreutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\it\microsoft.testplatform.coreutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\ja\microsoft.testplatform.coreutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\ko\microsoft.testplatform.coreutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\pl\microsoft.testplatform.coreutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\pt-br\microsoft.testplatform.coreutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\ru\microsoft.testplatform.coreutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\tr\microsoft.testplatform.coreutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\zh-hans\microsoft.testplatform.coreutilities.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\zh-hant\microsoft.testplatform.coreutilities.resources.dll
-++Microsoft.TestPlatform.CrossPlatEngine.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\cs\microsoft.testplatform.crossplatengine.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\de\microsoft.testplatform.crossplatengine.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\es\microsoft.testplatform.crossplatengine.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\fr\microsoft.testplatform.crossplatengine.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\it\microsoft.testplatform.crossplatengine.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\ja\microsoft.testplatform.crossplatengine.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\ko\microsoft.testplatform.crossplatengine.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\pl\microsoft.testplatform.crossplatengine.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\pt-br\microsoft.testplatform.crossplatengine.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\ru\microsoft.testplatform.crossplatengine.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\tr\microsoft.testplatform.crossplatengine.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\zh-hans\microsoft.testplatform.crossplatengine.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\zh-hant\microsoft.testplatform.crossplatengine.resources.dll
-++Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\cs\microsoft.visualstudio.testplatform.common.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\de\microsoft.visualstudio.testplatform.common.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\es\microsoft.visualstudio.testplatform.common.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\fr\microsoft.visualstudio.testplatform.common.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\it\microsoft.visualstudio.testplatform.common.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\ja\microsoft.visualstudio.testplatform.common.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\ko\microsoft.visualstudio.testplatform.common.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\pl\microsoft.visualstudio.testplatform.common.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\pt-br\microsoft.visualstudio.testplatform.common.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\ru\microsoft.visualstudio.testplatform.common.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\tr\microsoft.visualstudio.testplatform.common.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\zh-hans\microsoft.visualstudio.testplatform.common.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\zh-hant\microsoft.visualstudio.testplatform.common.resources.dll
-++Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\cs\microsoft.visualstudio.testplatform.objectmodel.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\de\microsoft.visualstudio.testplatform.objectmodel.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\es\microsoft.visualstudio.testplatform.objectmodel.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\fr\microsoft.visualstudio.testplatform.objectmodel.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\it\microsoft.visualstudio.testplatform.objectmodel.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\ja\microsoft.visualstudio.testplatform.objectmodel.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\ko\microsoft.visualstudio.testplatform.objectmodel.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\pl\microsoft.visualstudio.testplatform.objectmodel.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\pt-br\microsoft.visualstudio.testplatform.objectmodel.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\ru\microsoft.visualstudio.testplatform.objectmodel.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\tr\microsoft.visualstudio.testplatform.objectmodel.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\zh-hans\microsoft.visualstudio.testplatform.objectmodel.resources.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.services.test\bin\debug\net6.0\zh-hant\microsoft.visualstudio.testplatform.objectmodel.resources.dll
-++ToolsTarget.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\microsoft.visualstudio.azure.containers.tools.targets\1.14.0\build\toolstarget.props
-++Container.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\microsoft.visualstudio.azure.containers.tools.targets\1.14.0\build\container.props
-++Microsoft.iOS.Sdk.DefaultItems.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\packs\microsoft.ios.sdk\15.0.101-preview.9.31\targets\microsoft.ios.sdk.defaultitems.props
-++Microsoft.iOS.Sdk.ImplicitNamespaceImports.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\packs\microsoft.ios.sdk\15.0.101-preview.9.31\targets\microsoft.ios.sdk.implicitnamespaceimports.props
-++Microsoft.MacCatalyst.Sdk.DefaultItems.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\packs\microsoft.maccatalyst.sdk\15.0.101-preview.9.31\targets\microsoft.maccatalyst.sdk.defaultitems.props
-++Microsoft.MacCatalyst.Sdk.ImplicitNamespaceImports.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\packs\microsoft.maccatalyst.sdk\15.0.101-preview.9.31\targets\microsoft.maccatalyst.sdk.implicitnamespaceimports.props
-++Microsoft.NET.ILLink.Tasks.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.illink.tasks\build\microsoft.net.illink.tasks.props
-++System.Windows.Forms.Analyzers.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\program files\dotnet\sdk\6.0.100-rc.2.21505.57\sdks\microsoft.net.sdk.windowsdesktop\targets\system.windows.forms.analyzers.props
-++Microsoft.Managed.Core.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\bin\roslyn\microsoft.managed.core.targets
-++Microsoft.Managed.DesignTime.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
-++Microsoft.Common.CurrentVersion.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
-++netcoreapp3.0
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.0\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\
-++netcoreapp3.1
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.1\
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.1\
-++netstandard2.0
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\
-++Microsoft.Data.SqlClient.SNI.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win-arm\native\microsoft.data.sqlclient.sni.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win-x64\native\microsoft.data.sqlclient.sni.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win-x86\native\microsoft.data.sqlclient.sni.dll
-++Microsoft.Managed.Core.CurrentVersions.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\bin\roslyn\microsoft.managed.core.currentversions.targets
-++Microsoft.Cpp.VCLibs120Universal.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\microsoft.common.targets\importbefore\microsoft.cpp.vclibs120universal.targets
-++Microsoft.Net.CoreRuntime.ImportBefore.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\microsoft.common.targets\importbefore\microsoft.net.coreruntime.importbefore.targets
-++Microsoft.NetNative.ImportBefore.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\microsoft.common.targets\importbefore\microsoft.netnative.importbefore.targets
-++Pipseek.csproj.user
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\pipseek.csproj.user
-++Microsoft.NET.props
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\bin\amd64\microsoft.net.props
-++Microsoft.CodeAnalysis.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\microsoft\visualstudio\v17.0\codeanalysis\microsoft.codeanalysis.targets
-++Microsoft.Xaml.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\bin\amd64\microsoft.xaml.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.xaml.targets
-++Microsoft.WorkflowBuildExtensions.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\bin\amd64\microsoft.workflowbuildextensions.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.workflowbuildextensions.targets
-++Microsoft.TeamTest.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\microsoft\visualstudio\v17.0\teamtest\microsoft.teamtest.targets
-++NuGet.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\nuget\nuget.targets
-++Microsoft.DesktopBridge.ImportAfter.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\microsoft.common.targets\importafter\microsoft.desktopbridge.importafter.targets
-++Microsoft.Docker.ImportAfter.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\microsoft.common.targets\importafter\microsoft.docker.importafter.targets
-++Microsoft.NET.Build.Extensions.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\microsoft.common.targets\importafter\microsoft.net.build.extensions.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\microsoft\microsoft.net.build.extensions\microsoft.net.build.extensions.targets
-++Microsoft.Net.CoreRuntime.ImportAfter.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\microsoft.common.targets\importafter\microsoft.net.coreruntime.importafter.targets
-++Microsoft.NetNative.ImportAfter.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\microsoft.common.targets\importafter\microsoft.netnative.importafter.targets
-++Microsoft.NuGet.ImportAfter.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\microsoft.common.targets\importafter\microsoft.nuget.importafter.targets
-++Microsoft.Web.ImportAfter.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\microsoft.common.targets\importafter\microsoft.web.importafter.targets
-++Xamarin.Common.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\current\microsoft.common.targets\importafter\xamarin.common.targets
-++Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\microsoft.visualstudio.azure.containers.tools.targets\1.14.0\build\microsoft.visualstudio.azure.containers.tools.targets.targets
-++Microsoft.AspNetCore.Identity.UI.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.0-rc.2.21480.10\buildtransitive\microsoft.aspnetcore.identity.ui.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.0-rc.2.21480.10\build\microsoft.aspnetcore.identity.ui.targets
-++dotnet-aspnet-codegenerator-design.exe
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
-++Microsoft.AspNetCore.StaticWebAssets.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\smart.blazor\10.2.2\build\microsoft.aspnetcore.staticwebassets.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\radzen.blazor\3.11.10\build\microsoft.aspnetcore.staticwebassets.props
-++Microsoft.DesktopBridge.Common.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\microsoft\desktopbridge\microsoft.desktopbridge.common.targets
-++Microsoft.Docker.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\sdks\microsoft.docker.sdk\build\microsoft.docker.targets
-++Microsoft.Web.IISSupport.targets
-i:{f085266c-6b95-472d-8527-661185974952}:d:\microsoft visual studio\2022\preview\msbuild\microsoft\visualstudio\managed.web\microsoft.web.iissupport.targets
-++ToolsTarget.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\microsoft.visualstudio.azure.containers.tools.targets\1.14.0\build\toolstarget.targets
-++Container.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\microsoft.visualstudio.azure.containers.tools.targets\1.14.0\build\container.targets
-++Microsoft.AspNetCore.StaticWebAssets.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.0-rc.2.21480.10\build\microsoft.aspnetcore.staticwebassets.targets
-++Microsoft.AspNetCore.StaticWebAssets.V5.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.0-rc.2.21480.10\build\microsoft.aspnetcore.staticwebassets.v5.targets
-++Radzen.Blazor (3.11.10)
-i:{f085266c-6b95-472d-8527-661185974952}:>5320
-++Radzen.Blazor.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\radzen.blazor\3.11.10\buildtransitive\radzen.blazor.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\radzen.blazor\3.11.10\buildmultitargeting\radzen.blazor.props
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\radzen.blazor\3.11.10\build\radzen.blazor.props
-++Microsoft.AspNetCore.Components.Analyzers.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\microsoft.aspnetcore.components.analyzers\5.0.0\buildtransitive\netstandard2.0\microsoft.aspnetcore.components.analyzers.targets
-i:{f085266c-6b95-472d-8527-661185974952}:c:\users\ajone\.nuget\packages\microsoft.aspnetcore.components.analyzers\5.0.0\build\netstandard2.0\microsoft.aspnetcore.components.analyzers.targets
-++Radzen.Blazor.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\radzen.blazor.dll
-++System.Linq.Dynamic.Core.dll
-i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\bin\debug\net6.0\system.linq.dynamic.core.dll
-++Pipseek.csproj.CopyComplete
+++ChangePassword.cshtml.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\changepassword.cshtml.cs
+++DeletePersonalData.cshtml.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\deletepersonaldata.cshtml.cs
+++Disable2fa.cshtml.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\disable2fa.cshtml.cs
+++DownloadPersonalData.cshtml.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\downloadpersonaldata.cshtml.cs
+++Email.cshtml.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\email.cshtml.cs
+++EnableAuthenticator.cshtml.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\enableauthenticator.cshtml.cs
+++ExternalLogins.cshtml.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\externallogins.cshtml.cs
+++GenerateRecoveryCodes.cshtml.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\generaterecoverycodes.cshtml.cs
+++Index.cshtml.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\index.cshtml.cs
+++PersonalData.cshtml.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\personaldata.cshtml.cs
+++ResetAuthenticator.cshtml.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\resetauthenticator.cshtml.cs
+++SetPassword.cshtml.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\setpassword.cshtml.cs
+++ShowRecoveryCodes.cshtml.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\showrecoverycodes.cshtml.cs
+++TwoFactorAuthentication.cshtml.cs
+i:{f085266c-6b95-472d-8527-661185974952}:d:\repos\pipseek\areas\identity\pages\account\manage\twofactorauthentication.cshtml.cs
