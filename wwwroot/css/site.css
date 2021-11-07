@@ -62,3 +62,9 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+
+    .img-thumbnail{
+        background:none;
+        border:none;
+    }

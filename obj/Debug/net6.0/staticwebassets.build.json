@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Zi4qibQqoEWdWx/6tQNa2foAUJyB2KDwiUoTJr4YwEk=",
+  "Hash": "a7Oz4rbr3Y6VlneQCbVflycN+R9iij8Tp77eaMOm9Yk=",
   "Source": "Pipseek",
   "BasePath": "_content/Pipseek",
   "Mode": "Default",
@@ -17950,6 +17950,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Repos\\Pipseek\\wwwroot\\img\\logo.png",
+      "SourceId": "Pipseek",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Repos\\Pipseek\\wwwroot\\",
+      "BasePath": "_content/Pipseek",
+      "RelativePath": "img/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
       "Identity": "D:\\Repos\\Pipseek\\wwwroot\\img\\plants\\plant001.png",
