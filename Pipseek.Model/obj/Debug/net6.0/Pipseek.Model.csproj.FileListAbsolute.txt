@@ -2,7 +2,6 @@ D:\Repos\Pipseek\Pipseek.Model\bin\Debug\net6.0\Pipseek.Model.deps.json
 D:\Repos\Pipseek\Pipseek.Model\bin\Debug\net6.0\Pipseek.Model.dll
 D:\Repos\Pipseek\Pipseek.Model\bin\Debug\net6.0\ref\Pipseek.Model.dll
 D:\Repos\Pipseek\Pipseek.Model\bin\Debug\net6.0\Pipseek.Model.pdb
-D:\Repos\Pipseek\Pipseek.Model\obj\Debug\net6.0\Pipseek.Model.GlobalUsings.g.cs
 D:\Repos\Pipseek\Pipseek.Model\obj\Debug\net6.0\Pipseek.Model.csproj.AssemblyReference.cache
 D:\Repos\Pipseek\Pipseek.Model\obj\Debug\net6.0\Pipseek.Model.GeneratedMSBuildEditorConfig.editorconfig
 D:\Repos\Pipseek\Pipseek.Model\obj\Debug\net6.0\Pipseek.Model.AssemblyInfoInputs.cache

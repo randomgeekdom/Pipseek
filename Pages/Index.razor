@@ -77,11 +77,8 @@
         
         @*Random Pictures*@
 		<div class="row">
-            <div class="col-md-4">
-                <img class="img-thumbnail" src="/img/plants/@plantImage" />
-            </div>
-            <div class="col-md-8">
-                <p>@plantText</p>
+            <div class="card border-3">
+            @((MarkupString)RandomPictureEmbedder.GetEmbeddedElement())
             </div>
 
         </div>

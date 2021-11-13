@@ -4,7 +4,6 @@ D:\Repos\Pipseek\Pipseek.Services\bin\Debug\net6.0\ref\Pipseek.Services.dll
 D:\Repos\Pipseek\Pipseek.Services\bin\Debug\net6.0\Pipseek.Services.pdb
 D:\Repos\Pipseek\Pipseek.Services\bin\Debug\net6.0\Pipseek.Model.dll
 D:\Repos\Pipseek\Pipseek.Services\bin\Debug\net6.0\Pipseek.Model.pdb
-D:\Repos\Pipseek\Pipseek.Services\obj\Debug\net6.0\Pipseek.Services.GlobalUsings.g.cs
 D:\Repos\Pipseek\Pipseek.Services\obj\Debug\net6.0\Pipseek.Services.csproj.AssemblyReference.cache
 D:\Repos\Pipseek\Pipseek.Services\obj\Debug\net6.0\Pipseek.Services.GeneratedMSBuildEditorConfig.editorconfig
 D:\Repos\Pipseek\Pipseek.Services\obj\Debug\net6.0\Pipseek.Services.AssemblyInfoInputs.cache
@@ -13,3 +12,4 @@ D:\Repos\Pipseek\Pipseek.Services\obj\Debug\net6.0\Pipseek.Services.csproj.CoreC
 D:\Repos\Pipseek\Pipseek.Services\obj\Debug\net6.0\Pipseek.Services.dll
 D:\Repos\Pipseek\Pipseek.Services\obj\Debug\net6.0\ref\Pipseek.Services.dll
 D:\Repos\Pipseek\Pipseek.Services\obj\Debug\net6.0\Pipseek.Services.pdb
+D:\Repos\Pipseek\Pipseek.Services\obj\Debug\net6.0\Pipseek.Services.csproj.CopyComplete
