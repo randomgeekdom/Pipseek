@@ -50,7 +50,7 @@
                         <h6 class="mb-0"><button class="badge @this.GetBadgeColor(task.TimeOfDay)" @onclick="(async)=>CycleTimeOfDayAsync(task)">@task.TimeOfDay</button></h6>
                       </td>
                       <td class="border-0 align-middle">
-                        <a href="#!" data-mdb-toggle="tooltip" title="Done"><i class="fas fa-check text-success me-3"></i></a>
+                        <a href="#!" data-mdb-toggle="tooltip" title="Done" @onclick="(async)=>CompleteTaskAsync(task)"><i class="fas fa-check text-success me-3"></i></a>
                         <a href="#!" data-mdb-toggle="tooltip" title="Remove" @onclick="(async)=>DeleteTaskAsync(task)"><i class="fas fa-trash-alt text-warning"></i></a>
                       </td>
                     </tr>
@@ -165,6 +165,12 @@
     public async Task DeleteTaskAsync(DailyTask task)
     {
         await this.dailyTaskRepository.DeleteTaskAsync(this.userId, task.Id);
+        this.Tasks.Remove(task);
+    }
+
+    public async Task CompleteTaskAsync(DailyTask task)
+    {
+        await this.dailyTaskRepository.CompleteTaskAsync(this.userId, task.Id);
         this.Tasks.Remove(task);
     }
 

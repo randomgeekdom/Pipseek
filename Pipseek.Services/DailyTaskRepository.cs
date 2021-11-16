@@ -1,10 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Pipseek.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Pipseek.Services
 {
@@ -38,7 +33,7 @@ namespace Pipseek.Services
         {
             using (var context = await this.contextFactory.CreateDbContextAsync())
             {
-                return await context.DailyTasks.Where(x => x.UserId == userId && x.Date == date.Date).ToListAsync();
+                return await context.DailyTasks.Where(x => x.UserId == userId && !x.IsCompleted).ToListAsync();
             }
         }
 
@@ -90,6 +85,20 @@ namespace Pipseek.Services
                 }
             }
 
+        }
+
+        public async Task CompleteTaskAsync(Guid userId, int taskId)
+        {
+            using (var context = await this.contextFactory.CreateDbContextAsync())
+            {
+                var task = await context.DailyTasks.FirstOrDefaultAsync(x => x.UserId == userId && x.Id == taskId);
+
+                if (task != null)
+                {
+                    task.IsCompleted = true;
+                    await context.SaveChangesAsync();
+                }
+            }
         }
     }
 
