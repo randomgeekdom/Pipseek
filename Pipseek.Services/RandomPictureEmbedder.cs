@@ -23,7 +23,9 @@
 
             "<a title=\"Si Griffiths, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons\" href=\"https://commons.wikimedia.org/wiki/File:Mountain_Witch_Alder_(Fothergilla_major)_Shrub_In_Flower_Hampshire_UK.jpg\"><img width=\"512\" alt=\"Mountain Witch Alder (Fothergilla major) Shrub In Flower Hampshire UK\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Mountain_Witch_Alder_%28Fothergilla_major%29_Shrub_In_Flower_Hampshire_UK.jpg/512px-Mountain_Witch_Alder_%28Fothergilla_major%29_Shrub_In_Flower_Hampshire_UK.jpg\"></a>",
 
-            "<a title=\"A splash of colour by Eirian Evans, CC BY-SA 2.0 &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons\" href=\"https://commons.wikimedia.org/wiki/File:A_splash_of_colour_-_geograph.org.uk_-_1830668.jpg\"><img width=\"512\" alt=\"A splash of colour - geograph.org.uk - 1830668\" src=\"https://upload.wikimedia.org/wikipedia/commons/b/b0/A_splash_of_colour_-_geograph.org.uk_-_1830668.jpg\"></a>"
+            "<a title=\"A splash of colour by Eirian Evans, CC BY-SA 2.0 &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons\" href=\"https://commons.wikimedia.org/wiki/File:A_splash_of_colour_-_geograph.org.uk_-_1830668.jpg\"><img width=\"512\" alt=\"A splash of colour - geograph.org.uk - 1830668\" src=\"https://upload.wikimedia.org/wikipedia/commons/b/b0/A_splash_of_colour_-_geograph.org.uk_-_1830668.jpg\"></a>",
+
+            "<a title=\"Alvesgaspar, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons\" href=\"https://commons.wikimedia.org/wiki/File:Hortensia-1.jpg\"><img width=\"512\" alt=\"Hortensia-1\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Hortensia-1.jpg/512px-Hortensia-1.jpg\"></a>"
             };
 
         public static string GetEmbeddedElement()
