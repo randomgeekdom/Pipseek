@@ -35,6 +35,7 @@
                     <tr>
 
                       <th scope="col">Task</th>
+                      <th scope="col">Date</th>
                       <th scope="col">Time of Day</th>
                       <th scope="col">Actions</th>
                     </tr>
@@ -46,6 +47,7 @@
                     <tr class="fw-normal">
  
                       <td class="border-0 align-middle"><button class="btn" @onclick="(async)=>ShowInlineDialog(task)">@task.Note</button></td>
+                      <td class="border-0 align-middle">@task.Date.ToString("MM/dd/yyyy")</td>
                       <td class="border-0 align-middle">
                         <h6 class="mb-0"><button class="badge @this.GetBadgeColor(task.TimeOfDay)" @onclick="(async)=>CycleTimeOfDayAsync(task)">@task.TimeOfDay</button></h6>
                       </td>
@@ -159,7 +161,7 @@
 
     public async Task GetTasksAsync()
     {
-        this.Tasks = (await this.dailyTaskRepository.GetTasksAsync(this.userId, this.date)).OrderBy(x=>x.TimeOfDay).ThenBy(x=>x.Id).ToList();
+        this.Tasks = (await this.dailyTaskRepository.GetTasksAsync(this.userId)).OrderBy(x=>x.Date).ThenBy(x=>x.Id).ToList();
     }
 
     public async Task DeleteTaskAsync(DailyTask task)

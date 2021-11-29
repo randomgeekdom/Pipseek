@@ -7,7 +7,7 @@ namespace Pipseek.Services
         Task CreateTaskAsync(Guid userId, DateTime date, TimeOfDay timeOfDay);
         Task DeleteTaskAsync(Guid userId, int taskId);
         Task CompleteTaskAsync(Guid userId, int taskId);
-        Task<IEnumerable<DailyTask>> GetTasksAsync(Guid userId, DateTime date);
+        Task<IEnumerable<DailyTask>> GetTasksAsync(Guid userId);
 
         Task CycleTimeOfDayAsync(Guid userId, int taskId);
 

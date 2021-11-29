@@ -29,7 +29,7 @@ namespace Pipseek.Services
             }
         }
 
-        public async Task<IEnumerable<DailyTask>> GetTasksAsync(Guid userId, DateTime date)
+        public async Task<IEnumerable<DailyTask>> GetTasksAsync(Guid userId)
         {
             using (var context = await this.contextFactory.CreateDbContextAsync())
             {
