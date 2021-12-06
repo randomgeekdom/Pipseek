@@ -10,5 +10,6 @@
         public DateTime Date { get; set; }
 
         public bool IsCompleted { get; set; }
+        public string? CompletionNote { get; set; }
     }
 }

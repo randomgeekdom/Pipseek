@@ -46,14 +46,14 @@
                                 {
                     <tr class="fw-normal">
  
-                      <td class="border-0 align-middle"><button class="btn" @onclick="(async)=>ShowInlineDialog(task)">@task.Note</button></td>
+                      <td class="border-0 align-middle"><button class="btn" @onclick="(async)=>ShowInlineDialogAsync(task)">@task.Note</button></td>
                       <td class="border-0 align-middle">@task.Date.ToString("MM/dd/yyyy")</td>
                       <td class="border-0 align-middle">
                         <h6 class="mb-0"><button class="badge @this.GetBadgeColor(task.TimeOfDay)" @onclick="(async)=>CycleTimeOfDayAsync(task)">@task.TimeOfDay</button></h6>
                       </td>
                       <td class="border-0 align-middle">
-                        <a href="#!" data-mdb-toggle="tooltip" title="Done" @onclick="(async)=>CompleteTaskAsync(task)"><i class="fas fa-check text-success me-3"></i></a>
-                        <a href="#!" data-mdb-toggle="tooltip" title="Remove" @onclick="(async)=>DeleteTaskAsync(task)"><i class="fas fa-trash-alt text-warning"></i></a>
+                         <button class="btn" data-mdb-toggle="tooltip" title="Done" @onclick="(async)=>ShowCompleteDialogAsync(task)"><i class="fas fa-check text-success me-3"></i></button>
+                        <button class="btn" data-mdb-toggle="tooltip" title="Remove" @onclick="(async)=>DeleteTaskAsync(task)"><i class="fas fa-trash-alt text-warning"></i></button>
                       </td>
                     </tr>
                                 }
@@ -170,15 +170,24 @@
         this.Tasks.Remove(task);
     }
 
-    public async Task CompleteTaskAsync(DailyTask task)
+    public async Task CompleteTaskAsync(int taskId, string? completionNote, DialogService ds)
     {
-        await this.dailyTaskRepository.CompleteTaskAsync(this.userId, task.Id);
-        this.Tasks.Remove(task);
+        await this.dailyTaskRepository.CompleteTaskAsync(this.userId, taskId, completionNote);
+        ds.Close(true);
+        await this.GetTasksAsync();
     }
-
+     
+    public async Task UpdateTaskNoteAsync(int taskId, string? note, DialogService ds)
+    {
+        await this.dailyTaskRepository.UpdateTaskNoteAsync(this.userId, taskId, note);
+        ds.Close(true);
+        await this.GetTasksAsync();
+    }
+    
     string? updatedNote = "";
+    string? completionNote = "";
 
-    async Task ShowInlineDialog(DailyTask task)
+    async Task ShowInlineDialogAsync(DailyTask task)
     {
         this.updatedNote = task.Note;
         var result = await DialogService.OpenAsync("Edit Task", ds =>
@@ -192,14 +201,25 @@
                 </div>
             </div>
             </RadzenTemplateForm>
-        </div>
+    </div>
     );
     }
-     
-    public async Task UpdateTaskNoteAsync(int taskId, string? note, DialogService ds)
+
+    async Task ShowCompleteDialogAsync(DailyTask task)
     {
-        await this.dailyTaskRepository.UpdateTaskNoteAsync(this.userId, taskId, note);
-        ds.Close(true);
-        await this.GetTasksAsync();
+        this.completionNote = "";
+        var result = await DialogService.OpenAsync("Add a note to complete the task", ds =>
+        @<div>
+         <RadzenTemplateForm Data="@task" Submit="@(async (DailyTask args) => { await this.CompleteTaskAsync(task.Id, this.completionNote, ds); })">
+            <RadzenTextBox @bind-Value=@this.completionNote ></RadzenTextBox>
+            <div class="row">
+                <div class="col-md-12">
+                    <RadzenButton Text="Ok" ButtonType="ButtonType.Submit" Style="margin-bottom: 10px; width: 150px" />
+                    <RadzenButton Text="Cancel" Click="() => ds.Close(false)" ButtonStyle="ButtonStyle.Secondary"  Style="margin-bottom: 10px; width: 150px"/>
+                </div>
+            </div>
+            </RadzenTemplateForm>
+    </div>
+    );
     }
 }

@@ -87,7 +87,7 @@ namespace Pipseek.Services
 
         }
 
-        public async Task CompleteTaskAsync(Guid userId, int taskId)
+        public async Task CompleteTaskAsync(Guid userId, int taskId, string note)
         {
             using (var context = await this.contextFactory.CreateDbContextAsync())
             {
@@ -96,6 +96,7 @@ namespace Pipseek.Services
                 if (task != null)
                 {
                     task.IsCompleted = true;
+                    task.CompletionNote = note;
                     await context.SaveChangesAsync();
                 }
             }
