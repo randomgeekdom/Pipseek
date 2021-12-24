@@ -101,6 +101,20 @@ namespace Pipseek.Services
                 }
             }
         }
+
+        public async Task UpdateDateAsync(Guid userId, int taskId, DateTime dateTime)
+        {
+            using (var context = await this.contextFactory.CreateDbContextAsync())
+            {
+                var task = await context.DailyTasks.FirstOrDefaultAsync(x => x.UserId == userId && x.Id == taskId);
+
+                if (task != null)
+                {
+                    task.Date = dateTime.Date;
+                    await context.SaveChangesAsync();
+                }
+            }
+        }
     }
 
 }

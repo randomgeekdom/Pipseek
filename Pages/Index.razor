@@ -47,7 +47,8 @@
                     <tr class="fw-normal">
  
                       <td class="border-0 align-middle"><button class="btn" @onclick="(async)=>ShowInlineDialogAsync(task)">@task.Note</button></td>
-                      <td class="border-0 align-middle">@task.Date.ToString("MM/dd/yyyy")</td>
+                      @*<td class="border-0 align-middle">@task.Date.ToString("MM/dd/yyyy")</td>*@
+                      <RadzenDatePicker @bind-Value=@task.Date DateFormat="d" Change=@(args => UpdateTaskDate(task.Id, args) ) Class="w-100" />
                       <td class="border-0 align-middle">
                         <h6 class="mb-0"><button class="badge @this.GetBadgeColor(task.TimeOfDay)" @onclick="(async)=>CycleTimeOfDayAsync(task)">@task.TimeOfDay</button></h6>
                       </td>
@@ -107,6 +108,14 @@
     DateTime date = DateTime.Now.Date;
 
     Guid userId = default(Guid);
+
+    void UpdateTaskDate(int taskId, DateTime? date)
+    {
+        if (date != null)
+        {
+            this.dailyTaskRepository.UpdateDateAsync(this.userId, taskId, date.Value);   
+        }
+    }
 
     protected override async Task OnInitializedAsync()
     {

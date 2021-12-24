@@ -12,5 +12,6 @@ namespace Pipseek.Services
         Task CycleTimeOfDayAsync(Guid userId, int taskId);
 
         Task UpdateTaskNoteAsync(Guid userId, int taskId, string? note);
+        Task UpdateDateAsync(Guid userId, int taskId, DateTime dateTime);
     }
 }
