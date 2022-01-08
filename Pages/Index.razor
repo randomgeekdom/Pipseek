@@ -15,7 +15,7 @@
         <div class="row d-flex justify-content-center align-items-center">
           <div class="col-md-12 col-xl-10">
 
-            <div class="card bg-light bg-opacity-25 bg-gradient">
+            <RadzenCard style="overflow: scroll;">
               <div class="card-header p-3">
                   <div class="row align-middle">
                       <div class="col-md-9">
@@ -64,29 +64,24 @@
 
               </div>
 
-            </div>
+            </RadzenCard>
     </div>
 </div>
 	</div>
 	<div class="col-md-6">
-        @*Calendar*@
-		<div class="row">
-         <Calendar id="calendar" OnChange=@OnChange></Calendar>
-         <div class="options">
-
-	    <div class="option" id="log">
-	</div>
-        </div>
+     <RadzenCard style="overflow: scroll;">
+            <h4 class="mb-4">Calendar</h4>
+            <RadzenDatePicker TValue="DateTime?" Inline="true" Change="@(args => OnDateChange(args))"/>
+        </RadzenCard>
         
         @*Random Pictures*@
 		<div class="row">
-            <div class="card border-3">
+            <RadzenCard style="overflow: scroll;">
             @((MarkupString)RandomPictureEmbedder.GetEmbeddedElement())
-            </div>
+            </RadzenCard>
 
         </div>
-	    </div>
-</div>
+	  </div>
 </div>
 
 @code {
@@ -136,10 +131,9 @@
         await this.GetTasksAsync();
     }
 
-    private void OnChange(Event eventObj)
+    private void OnDateChange(DateTime? eventObj)
     {
-        CalendarChangeEventDetail eventDetail = eventObj["Detail"];
-        this.date = DateTime.Parse(eventDetail.Value.First()).Date;
+        this.date = (eventObj ?? DateTime.Now).Date;
 
         this.GetTasksAsync();
     }
