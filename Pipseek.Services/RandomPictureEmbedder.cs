@@ -25,8 +25,12 @@
 
             "<a title=\"A splash of colour by Eirian Evans, CC BY-SA 2.0 &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons\" href=\"https://commons.wikimedia.org/wiki/File:A_splash_of_colour_-_geograph.org.uk_-_1830668.jpg\"><img width=\"512\" alt=\"A splash of colour - geograph.org.uk - 1830668\" src=\"https://upload.wikimedia.org/wikipedia/commons/b/b0/A_splash_of_colour_-_geograph.org.uk_-_1830668.jpg\"></a>",
 
-            "<a title=\"Alvesgaspar, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons\" href=\"https://commons.wikimedia.org/wiki/File:Hortensia-1.jpg\"><img width=\"512\" alt=\"Hortensia-1\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Hortensia-1.jpg/512px-Hortensia-1.jpg\"></a>"
+            "<a title=\"Alvesgaspar, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons\" href=\"https://commons.wikimedia.org/wiki/File:Hortensia-1.jpg\"><img width=\"512\" alt=\"Hortensia-1\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Hortensia-1.jpg/512px-Hortensia-1.jpg\"></a>",
+
+            "<a title=\"Photo by and (c)2007 Derek Ramsey (Ram-Man), GFDL 1.2 &lt; http://www.gnu.org/licenses/old-licenses/fdl-1.2.html&gt;, via Wikimedia Commons\" href=\"https://commons.wikimedia.org/wiki/File:Bigleaf_Hydrangea_Hydrangea_macrophylla_%27Tokyo_Delight%27_Pink_3008px.jpg\"><img width=\"512\" alt=\"Bigleaf Hydrangea Hydrangea macrophylla &#039;Tokyo Delight&#039; Pink 3008px\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bigleaf_Hydrangea_Hydrangea_macrophylla_%27Tokyo_Delight%27_Pink_3008px.jpg/512px-Bigleaf_Hydrangea_Hydrangea_macrophylla_%27Tokyo_Delight%27_Pink_3008px.jpg\"></a>"
             };
+
+
 
         public static string GetEmbeddedElement()
         {
